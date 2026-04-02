@@ -1,0 +1,120 @@
+{
+  "id": "n5-mock-001",
+  "level": "N5",
+  "title": "N5 Mock Exam 001",
+  "description": "JLPT N5 Mock Examination - Language Knowledge (Vocabulary · Grammar) & Reading · Listening",
+  "sections": [
+    {
+      "id": "n5-lk-vocabulary",
+      "type": "vocabulary",
+      "title": "言語知識（文字・語彙）",
+      "timeLimitSeconds": 1500,
+      "subsections": [
+        {
+          "id": "n5-lk-vocab-1",
+          "title": "問題1 ＿の言葉の読み方として最もよいものを、1・2・3・4から一つえらんでください。",
+          "instructions": "Choose the best reading for the underlined word from options 1–4.",
+          "questions": [
+            {
+              "id": "n5-v-placeholder-1",
+              "type": "multiple-choice",
+              "questionText": "（Placeholder question — exam content coming soon）",
+              "options": [
+                { "id": "n5-v-p1-a", "text": "Option A" },
+                { "id": "n5-v-p1-b", "text": "Option B" },
+                { "id": "n5-v-p1-c", "text": "Option C" },
+                { "id": "n5-v-p1-d", "text": "Option D" }
+              ],
+              "correctOptionId": "n5-v-p1-a",
+              "explanation": "Placeholder explanation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n5-lk-grammar-reading",
+      "type": "grammar",
+      "title": "言語知識（文法）・読解",
+      "timeLimitSeconds": 2700,
+      "subsections": [
+        {
+          "id": "n5-gr-grammar-1",
+          "title": "問題1 （　）に何を入れますか。1・2・3・4から最もよいものを一つえらんでください。",
+          "instructions": "Choose the best option to fill in the blank from 1–4.",
+          "questions": [
+            {
+              "id": "n5-g-placeholder-1",
+              "type": "multiple-choice",
+              "questionText": "（Placeholder question — exam content coming soon）",
+              "options": [
+                { "id": "n5-g-p1-a", "text": "Option A" },
+                { "id": "n5-g-p1-b", "text": "Option B" },
+                { "id": "n5-g-p1-c", "text": "Option C" },
+                { "id": "n5-g-p1-d", "text": "Option D" }
+              ],
+              "correctOptionId": "n5-g-p1-a",
+              "explanation": "Placeholder explanation."
+            }
+          ]
+        },
+        {
+          "id": "n5-gr-reading-1",
+          "title": "問題4 つぎの文章を読んで、質問に答えてください。",
+          "instructions": "Read the following passage and answer the questions.",
+          "passages": [
+            {
+              "id": "n5-passage-1",
+              "title": "Placeholder Passage",
+              "text": "（Placeholder reading passage — exam content coming soon.）"
+            }
+          ],
+          "questions": [
+            {
+              "id": "n5-r-placeholder-1",
+              "type": "reading-comprehension",
+              "questionText": "（Placeholder question — exam content coming soon）",
+              "passageRef": "n5-passage-1",
+              "options": [
+                { "id": "n5-r-p1-a", "text": "Option A" },
+                { "id": "n5-r-p1-b", "text": "Option B" },
+                { "id": "n5-r-p1-c", "text": "Option C" },
+                { "id": "n5-r-p1-d", "text": "Option D" }
+              ],
+              "correctOptionId": "n5-r-p1-a",
+              "explanation": "Placeholder explanation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n5-listening",
+      "type": "listening",
+      "title": "聴解",
+      "timeLimitSeconds": 1800,
+      "subsections": [
+        {
+          "id": "n5-listening-1",
+          "title": "問題1 まず話を聞いてください。それから、質問を聞いて、1から4の中から、最もよいものを一つえらんでください。",
+          "instructions": "Listen to the conversation, then choose the best answer from 1–4.",
+          "questions": [
+            {
+              "id": "n5-l-placeholder-1",
+              "type": "listening-comprehension",
+              "questionText": "（Placeholder listening question — audio and exam content coming soon）",
+              "options": [
+                { "id": "n5-l-p1-a", "text": "Option A" },
+                { "id": "n5-l-p1-b", "text": "Option B" },
+                { "id": "n5-l-p1-c", "text": "Option C" },
+                { "id": "n5-l-p1-d", "text": "Option D" }
+              ],
+              "correctOptionId": "n5-l-p1-a",
+              "explanation": "Placeholder explanation."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
