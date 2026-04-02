@@ -89,6 +89,7 @@ export const useExamStore = create<ExamState>()(
           ...initialExamState,
           examStarted: true,
           sectionTimers: timers,
+          examSet, // must re-apply — initialExamState resets examSet to null
         });
       },
 
