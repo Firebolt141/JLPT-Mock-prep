@@ -31,6 +31,7 @@ interface ExamState {
 
   // Final scores
   examScores: ExamScores | null;
+  hasHydrated: boolean;
 
   // Actions
   setParticipantInfo: (name: string, team: string) => void;
@@ -46,6 +47,7 @@ interface ExamState {
   initializeSectionTimers: () => void;
   completeExam: (scores: ExamScores) => void;
   resetExam: () => void;
+  setHasHydrated: (hydrated: boolean) => void;
 }
 
 const initialState = {
@@ -60,6 +62,7 @@ const initialState = {
   examCompleted: false,
   examSet: null,
   examScores: null,
+  hasHydrated: false,
 };
 
 export const useExamStore = create<ExamState>()(
@@ -161,9 +164,13 @@ export const useExamStore = create<ExamState>()(
         set({ examCompleted: true, examScores: scores }),
 
       resetExam: () => set(initialState),
+      setHasHydrated: (hydrated) => set({ hasHydrated: hydrated }),
     }),
     {
       name: 'jlpt-exam-store',
+      onRehydrateStorage: () => (state) => {
+        state?.setHasHydrated(true);
+      },
       partialize: (state) => ({
         participantName: state.participantName,
         teamName: state.teamName,

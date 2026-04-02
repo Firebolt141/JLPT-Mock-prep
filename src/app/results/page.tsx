@@ -17,12 +17,18 @@ export default function ResultsPage() {
   const examSet = useExamStore((s) => s.examSet);
   const answers = useExamStore((s) => s.answers);
   const resetExam = useExamStore((s) => s.resetExam);
+  const hasHydrated = useExamStore((s) => s.hasHydrated);
 
   useEffect(() => {
+    if (!hasHydrated) return;
     if (!examCompleted || !examScores || !participantName || !examSet) {
       router.replace('/');
     }
-  }, [examCompleted, examScores, participantName, examSet, router]);
+  }, [hasHydrated, examCompleted, examScores, participantName, examSet, router]);
+
+  if (!hasHydrated) {
+    return null;
+  }
 
   if (!examCompleted || !examScores || !participantName || !examSet) {
     return null;
