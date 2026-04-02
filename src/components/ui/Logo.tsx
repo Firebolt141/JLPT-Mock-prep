@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useState } from 'react';
 
 interface LogoProps {
@@ -13,14 +12,14 @@ export function Logo({ size = 40, className = '' }: LogoProps) {
 
   if (!imgError) {
     return (
-      <Image
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
         src="/nihongo-community-logo.png"
         alt="SAP Nihongo Community"
         width={size}
         height={size}
         className={`rounded-full object-cover ${className}`}
         onError={() => setImgError(true)}
-        unoptimized
       />
     );
   }
