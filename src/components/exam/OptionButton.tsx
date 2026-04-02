@@ -62,15 +62,16 @@ export function OptionButton({
       >
         {label}
       </span>
-      <span className={cn(
-        'text-base leading-relaxed',
-        selected && !isReviewMode && 'text-[#1B2A4A] font-medium',
-        isReviewMode && correct && 'text-[#4A7C59] font-medium',
-        isReviewMode && incorrect && selected && 'text-[#C53D43] font-medium',
-        (!selected || (isReviewMode && !correct && !incorrect)) && 'text-[#1A1A1A]',
-      )}>
-        {text}
-      </span>
+      <span
+        className={cn(
+          'text-base leading-relaxed',
+          selected && !isReviewMode && 'text-[#1B2A4A] font-medium',
+          isReviewMode && correct && 'text-[#4A7C59] font-medium',
+          isReviewMode && incorrect && selected && 'text-[#C53D43] font-medium',
+          (!selected || (isReviewMode && !correct && !incorrect)) && 'text-[#1A1A1A]',
+        )}
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
     </button>
   );
 }

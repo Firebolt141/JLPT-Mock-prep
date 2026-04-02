@@ -91,10 +91,9 @@ export default function ExamPage() {
   };
 
   const handlePrevQuestion = () => {
-    if (nav.isFirstQuestion && nav.currentSectionIndex > 0) {
-      // Don't allow going back to a previous section once submitted
-      return;
-    }
+    // Prev only navigates within the current section.
+    // Use the section tabs to jump to a completed section.
+    if (nav.isFirstQuestion) return;
     nav.prevQuestion();
   };
 
@@ -170,25 +169,31 @@ export default function ExamPage() {
 
         {/* Section tabs */}
         <div className="max-w-7xl mx-auto px-6 pb-2 flex gap-1">
-          {examSet.sections.map((section, index) => (
-            <button
-              key={section.id}
-              onClick={() => {
-                if (index < nav.currentSectionIndex) return; // Don't go back
-                if (index > nav.currentSectionIndex) return; // Don't jump ahead
-              }}
-              className={cn(
-                'px-3 py-1 text-xs rounded-full font-medium transition-colors',
-                index === nav.currentSectionIndex
-                  ? 'bg-[#1B2A4A] text-white'
-                  : nav.completedSections.includes(section.id)
-                  ? 'bg-[#4A7C59]/15 text-[#4A7C59]'
-                  : 'bg-gray-100 text-[#6B7280] cursor-default'
-              )}
-            >
-              {index + 1}. {section.title}
-            </button>
-          ))}
+          {examSet.sections.map((section, index) => {
+            const isCompleted = nav.completedSections.includes(section.id);
+            const isCurrent = index === nav.currentSectionIndex;
+            const isFuture = index > nav.currentSectionIndex && !isCompleted;
+            return (
+              <button
+                key={section.id}
+                onClick={() => {
+                  if (isCurrent || isFuture) return;
+                  nav.goToSection(index);
+                  setPhase('question');
+                }}
+                disabled={isFuture}
+                className={cn(
+                  'px-3 py-1 text-xs rounded-full font-medium transition-colors',
+                  isCurrent && 'bg-[#1B2A4A] text-white',
+                  isCompleted && !isCurrent && 'bg-[#4A7C59]/15 text-[#4A7C59] hover:bg-[#4A7C59]/25 cursor-pointer',
+                  isFuture && 'bg-gray-100 text-[#6B7280] cursor-default opacity-50'
+                )}
+              >
+                {index + 1}. {section.title}
+                {isCompleted && !isCurrent && ' ✓'}
+              </button>
+            );
+          })}
         </div>
       </header>
 

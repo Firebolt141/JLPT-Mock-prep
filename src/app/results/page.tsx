@@ -2,7 +2,6 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useExamStore } from '@/src/store/examStore';
 import { ScoreCard } from '@/src/components/results/ScoreCard';
@@ -98,7 +97,7 @@ export default function ResultsPage() {
               size="md"
               onClick={handleBackHome}
             >
-              <Link href="/">Home</Link>
+              ← Home
             </Button>
             <Button
               variant="primary"
