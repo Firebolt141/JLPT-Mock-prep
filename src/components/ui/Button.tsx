@@ -1,0 +1,93 @@
+'use client';
+
+import { forwardRef } from 'react';
+import { cn } from '@/src/lib/utils';
+
+type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'success';
+type ButtonSize = 'sm' | 'md' | 'lg';
+
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+  isLoading?: boolean;
+  fullWidth?: boolean;
+}
+
+const variantStyles: Record<ButtonVariant, string> = {
+  primary:
+    'bg-[#1B2A4A] text-white hover:bg-[#243560] active:bg-[#141f38] border border-transparent',
+  secondary:
+    'bg-white text-[#1B2A4A] hover:bg-[#FAF8F5] active:bg-gray-100 border border-[#1B2A4A]',
+  ghost:
+    'bg-transparent text-[#1B2A4A] hover:bg-[#1B2A4A]/10 active:bg-[#1B2A4A]/20 border border-transparent',
+  danger:
+    'bg-[#C53D43] text-white hover:bg-[#a8333a] active:bg-[#8e2b30] border border-transparent',
+  success:
+    'bg-[#4A7C59] text-white hover:bg-[#3d6849] active:bg-[#305438] border border-transparent',
+};
+
+const sizeStyles: Record<ButtonSize, string> = {
+  sm: 'px-3 py-1.5 text-sm',
+  md: 'px-5 py-2.5 text-base',
+  lg: 'px-8 py-3.5 text-lg',
+};
+
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  (
+    {
+      variant = 'primary',
+      size = 'md',
+      isLoading = false,
+      fullWidth = false,
+      className,
+      disabled,
+      children,
+      ...props
+    },
+    ref
+  ) => {
+    return (
+      <button
+        ref={ref}
+        disabled={disabled || isLoading}
+        className={cn(
+          'inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-150 cursor-pointer',
+          'focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1B2A4A] focus-visible:ring-offset-2',
+          'disabled:opacity-50 disabled:cursor-not-allowed',
+          variantStyles[variant],
+          sizeStyles[size],
+          fullWidth && 'w-full',
+          className
+        )}
+        {...props}
+      >
+        {isLoading && (
+          <svg
+            className="animate-spin h-4 w-4"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <circle
+              className="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              strokeWidth="4"
+            />
+            <path
+              className="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+            />
+          </svg>
+        )}
+        {children}
+      </button>
+    );
+  }
+);
+
+Button.displayName = 'Button';
