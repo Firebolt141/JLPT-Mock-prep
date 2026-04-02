@@ -11,6 +11,7 @@ import { QuestionNavigator } from '@/src/components/exam/QuestionNavigator';
 import { SectionTimer } from '@/src/components/exam/SectionTimer';
 import { SectionTransition } from '@/src/components/exam/SectionTransition';
 import { Button } from '@/src/components/ui/Button';
+import { Logo } from '@/src/components/ui/Logo';
 import { ProgressBar } from '@/src/components/ui/ProgressBar';
 import { cn } from '@/src/lib/utils';
 
@@ -130,6 +131,8 @@ export default function ExamPage() {
       {/* Top bar */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-20">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center gap-6">
+          {/* Logo */}
+          <Logo size={32} className="flex-shrink-0" />
           {/* Section title */}
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2">

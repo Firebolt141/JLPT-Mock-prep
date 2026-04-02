@@ -7,6 +7,7 @@ import { useExamStore } from '@/src/store/examStore';
 import { ScoreCard } from '@/src/components/results/ScoreCard';
 import { AnswerReview } from '@/src/components/results/AnswerReview';
 import { Button } from '@/src/components/ui/Button';
+import { Logo } from '@/src/components/ui/Logo';
 
 export default function ResultsPage() {
   const router = useRouter();
@@ -43,10 +44,11 @@ export default function ResultsPage() {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#1B2A4A] rounded-lg flex items-center justify-center">
-              <span className="text-white text-xs font-bold">JP</span>
+            <Logo size={36} />
+            <div className="leading-tight">
+              <p className="text-xs font-semibold text-[#1B2A4A] leading-none">SAP Nihongo Community</p>
+              <p className="text-xs text-[#6B7280]">JLPT Mock Exam</p>
             </div>
-            <span className="font-semibold text-[#1B2A4A]">JLPT Mock Exam</span>
           </div>
           <span className="text-sm text-[#6B7280]">Exam Results</span>
         </div>
