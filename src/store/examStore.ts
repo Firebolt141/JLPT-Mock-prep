@@ -2,22 +2,22 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { ExamSet, ExamScores } from '@/src/types/exam';
+import type { ExamSet, ExamScores, ResultsHistoryEntry } from '@/src/types/exam';
 
 interface ExamState {
   // Participant info
   participantName: string;
-  teamName: string;
+  email: string;
 
   // Exam navigation
   currentSectionIndex: number;
   currentQuestionIndex: number;
 
   // Answers
-  answers: Record<string, string>; // questionId → optionId
+  answers: Record<string, string>;
 
   // Timers
-  sectionTimers: Record<string, number>; // sectionId → remaining seconds
+  sectionTimers: Record<string, number>;
 
   // Progress
   completedSections: string[];
@@ -29,12 +29,15 @@ interface ExamState {
   // Loaded exam data
   examSet: ExamSet | null;
 
-  // Final scores
+  // Final scores for current exam
   examScores: ExamScores | null;
   hasHydrated: boolean;
 
+  // All-time results history (persisted in localStorage)
+  resultsHistory: ResultsHistoryEntry[];
+
   // Actions
-  setParticipantInfo: (name: string, team: string) => void;
+  setParticipantInfo: (name: string, email: string) => void;
   setExamSet: (examSet: ExamSet) => void;
   startExam: () => void;
   setAnswer: (questionId: string, optionId: string) => void;
@@ -44,15 +47,12 @@ interface ExamState {
   prevQuestion: () => void;
   completeSection: (sectionId: string) => void;
   updateSectionTimer: (sectionId: string, seconds: number) => void;
-  initializeSectionTimers: () => void;
   completeExam: (scores: ExamScores) => void;
   resetExam: () => void;
   setHasHydrated: (hydrated: boolean) => void;
 }
 
-const initialState = {
-  participantName: '',
-  teamName: '',
+const initialExamState = {
   currentSectionIndex: 0,
   currentQuestionIndex: 0,
   answers: {},
@@ -68,10 +68,13 @@ const initialState = {
 export const useExamStore = create<ExamState>()(
   persist(
     (set, get) => ({
-      ...initialState,
+      participantName: '',
+      email: '',
+      resultsHistory: [],
+      ...initialExamState,
 
-      setParticipantInfo: (name, team) =>
-        set({ participantName: name, teamName: team }),
+      setParticipantInfo: (name, email) =>
+        set({ participantName: name, email }),
 
       setExamSet: (examSet) => set({ examSet }),
 
@@ -83,12 +86,8 @@ export const useExamStore = create<ExamState>()(
           timers[section.id] = section.timeLimitSeconds;
         }
         set({
+          ...initialExamState,
           examStarted: true,
-          examCompleted: false,
-          currentSectionIndex: 0,
-          currentQuestionIndex: 0,
-          answers: {},
-          completedSections: [],
           sectionTimers: timers,
         });
       },
@@ -107,34 +106,18 @@ export const useExamStore = create<ExamState>()(
       nextQuestion: () => {
         const { examSet, currentSectionIndex, currentQuestionIndex } = get();
         if (!examSet) return;
-
         const section = examSet.sections[currentSectionIndex];
         if (!section) return;
-
         const allQuestions = section.subsections.flatMap((s) => s.questions);
         if (currentQuestionIndex < allQuestions.length - 1) {
           set({ currentQuestionIndex: currentQuestionIndex + 1 });
-        } else if (currentSectionIndex < examSet.sections.length - 1) {
-          set({
-            currentSectionIndex: currentSectionIndex + 1,
-            currentQuestionIndex: 0,
-          });
         }
       },
 
       prevQuestion: () => {
-        const { examSet, currentSectionIndex, currentQuestionIndex } = get();
-        if (!examSet) return;
-
+        const { currentQuestionIndex } = get();
         if (currentQuestionIndex > 0) {
           set({ currentQuestionIndex: currentQuestionIndex - 1 });
-        } else if (currentSectionIndex > 0) {
-          const prevSection = examSet.sections[currentSectionIndex - 1];
-          const prevQuestions = prevSection.subsections.flatMap((s) => s.questions);
-          set({
-            currentSectionIndex: currentSectionIndex - 1,
-            currentQuestionIndex: Math.max(0, prevQuestions.length - 1),
-          });
         }
       },
 
@@ -150,14 +133,22 @@ export const useExamStore = create<ExamState>()(
           sectionTimers: { ...state.sectionTimers, [sectionId]: seconds },
         })),
 
-      initializeSectionTimers: () => {
-        const { examSet } = get();
-        if (!examSet) return;
-        const timers: Record<string, number> = {};
-        for (const section of examSet.sections) {
-          timers[section.id] = section.timeLimitSeconds;
-        }
-        set({ sectionTimers: timers });
+      completeExam: (scores) => {
+        const { participantName, email, examSet, resultsHistory } = get();
+        const entry: ResultsHistoryEntry = {
+          id: `${email}-${Date.now()}`,
+          participantName,
+          email,
+          examId: examSet?.id ?? 'unknown',
+          examLevel: examSet?.level ?? 'N5',
+          scores,
+          completedAt: new Date().toISOString(),
+        };
+        set({
+          examCompleted: true,
+          examScores: scores,
+          resultsHistory: [entry, ...resultsHistory],
+        });
       },
 
       completeExam: (scores) =>
@@ -173,7 +164,7 @@ export const useExamStore = create<ExamState>()(
       },
       partialize: (state) => ({
         participantName: state.participantName,
-        teamName: state.teamName,
+        email: state.email,
         examSet: state.examSet,
         answers: state.answers,
         sectionTimers: state.sectionTimers,
@@ -183,6 +174,7 @@ export const useExamStore = create<ExamState>()(
         examScores: state.examScores,
         currentSectionIndex: state.currentSectionIndex,
         currentQuestionIndex: state.currentQuestionIndex,
+        resultsHistory: state.resultsHistory,
       }),
     }
   )

@@ -21,7 +21,7 @@ export interface Question {
   correctOptionId: string;
   explanation?: string;
   audioUrl?: string;
-  passageRef?: string; // Reference to a reading passage id
+  passageRef?: string;
 }
 
 export interface ReadingPassage {
@@ -54,9 +54,19 @@ export interface ExamSet {
   sections: Section[];
 }
 
+export interface ResultsHistoryEntry {
+  id: string;
+  participantName: string;
+  email: string;
+  examId: string;
+  examLevel: JLPTLevel;
+  scores: ExamScores;
+  completedAt: string;
+}
+
 export interface ExamResult {
   participantName: string;
-  teamName?: string;
+  email: string;
   examId: string;
   examLevel: JLPTLevel;
   answers: Record<string, string>;
@@ -74,9 +84,9 @@ export interface SectionScore {
 }
 
 export interface ExamScores {
-  lkrScore: number;       // Language Knowledge + Reading (out of 120)
-  listeningScore: number; // Listening (out of 60)
-  totalScore: number;     // Total (out of 180)
+  lkrScore: number;
+  listeningScore: number;
+  totalScore: number;
   passed: boolean;
   sectionScores: SectionScore[];
 }
@@ -88,3 +98,4 @@ export interface ExamAvailability {
   available: boolean;
   comingSoon?: boolean;
 }
+

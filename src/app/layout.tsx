@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'JLPT模擬テスト | JLPT Mock Exam',
+  title: 'SAP Nihongo Community | JLPT Mock Exam',
   description:
-    'Internal JLPT mock examination platform for team upskilling. Practice N5 and N4 level Japanese language proficiency tests.',
-  keywords: ['JLPT', 'Japanese', 'mock exam', 'N5', 'N4', 'language test'],
+    'JLPT mock examination platform for the SAP Nihongo Community. Practice N5 and N4 level Japanese language proficiency tests.',
+  keywords: ['JLPT', 'Japanese', 'mock exam', 'N5', 'N4', 'SAP', 'Nihongo Community'],
 };
 
 export default function RootLayout({
