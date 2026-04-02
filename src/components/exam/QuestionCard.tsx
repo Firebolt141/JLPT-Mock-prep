@@ -63,27 +63,32 @@ export function QuestionCard({
         </div>
       </Card>
 
-      {/* Listening placeholder */}
-      {question.type === 'listening-comprehension' && (
-        <div className="flex items-center gap-3 p-4 bg-[#1B2A4A]/5 rounded-xl border border-[#1B2A4A]/20">
-          <svg
-            className="w-8 h-8 text-[#1B2A4A]"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1.5}
-              d="M15.536 8.464a5 5 0 010 7.072M12 18.364A9 9 0 003.636 10m.707-.707a8 8 0 0111.314 0M12 12v.01"
-            />
-          </svg>
-          <p className="text-sm text-[#6B7280]">
-            Audio playback will be available when listening content is loaded.
-          </p>
-        </div>
+      {/* Listening audio */}
+      {question.audioUrl && (
+        <Card shadow="none" border className="bg-white">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-9 h-9 rounded-full bg-[#1B2A4A]/10 flex items-center justify-center">
+              <svg
+                className="w-5 h-5 text-[#1B2A4A]"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M11 5 6 9H3v6h3l5 4V5Zm6 3a6 6 0 0 1 0 8m-2.5-5.5a3 3 0 0 1 0 3"
+                />
+              </svg>
+            </div>
+            <p className="text-sm font-medium text-[#1B2A4A]">Listening Track</p>
+          </div>
+          <audio className="w-full" controls preload="metadata" src={question.audioUrl}>
+            Your browser does not support audio playback.
+          </audio>
+        </Card>
       )}
 
       {/* Options */}

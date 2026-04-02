@@ -29,9 +29,7 @@ export default function LandingPage() {
             </div>
             <span className="font-semibold text-[#1B2A4A]">JLPT Mock Exam</span>
           </div>
-          <nav className="flex items-center gap-6 text-sm text-[#6B7280]">
-            <span>Internal Use Only</span>
-          </nav>
+          <nav className="flex items-center gap-6 text-sm text-[#6B7280]" />
         </div>
       </header>
 
@@ -51,7 +49,7 @@ export default function LandingPage() {
                   社内研修プログラム
                 </span>
                 <span className="text-[#6B7280] text-sm">·</span>
-                <span className="text-[#6B7280] text-sm">Internal Upskilling Program</span>
+                <span className="text-[#6B7280] text-sm">Upskilling Program</span>
               </div>
             </motion.div>
 
@@ -179,7 +177,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-gray-100 px-8 py-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between text-xs text-[#6B7280]">
-          <span>JLPT Mock Exam — Internal Use Only</span>
+          <span>JLPT Mock Exam</span>
           <span>日本語能力試験模擬テスト</span>
         </div>
       </footer>
