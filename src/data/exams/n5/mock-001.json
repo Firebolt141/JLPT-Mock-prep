@@ -2,86 +2,378 @@
   "id": "n5-mock-001",
   "level": "N5",
   "title": "N5 Mock Exam 001",
-  "description": "JLPT N5 Mock Examination - Language Knowledge (Vocabulary · Grammar) & Reading · Listening",
+  "description": "JLPT N5 Mock Examination — Language Knowledge (Vocabulary · Grammar) & Reading · Listening",
   "sections": [
     {
-      "id": "n5-lk-vocabulary",
+      "id": "section-1",
       "type": "vocabulary",
       "title": "言語知識（文字・語彙）",
-      "timeLimitSeconds": 1500,
+      "timeLimitSeconds": 1200,
       "subsections": [
         {
-          "id": "n5-lk-vocab-1",
-          "title": "問題1 ＿の言葉の読み方として最もよいものを、1・2・3・4から一つえらんでください。",
-          "instructions": "Choose the best reading for the underlined word from options 1–4.",
+          "id": "s1-sub1",
+          "title": "問題１　＿＿＿の ことばの よみかたは どれですか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "instructions": "Choose the correct reading (hiragana) for the underlined word.",
           "questions": [
             {
-              "id": "n5-v-placeholder-1",
+              "id": "s1-q01",
               "type": "multiple-choice",
-              "questionText": "（Placeholder question — exam content coming soon）",
+              "questionText": "わたしは <u><ruby>毎日<rt>　　　</rt></ruby></u> バスで がっこうへ いきます。",
               "options": [
-                { "id": "n5-v-p1-a", "text": "Option A" },
-                { "id": "n5-v-p1-b", "text": "Option B" },
-                { "id": "n5-v-p1-c", "text": "Option C" },
-                { "id": "n5-v-p1-d", "text": "Option D" }
+                { "id": "s1-q01-1", "text": "まいにち" },
+                { "id": "s1-q01-2", "text": "まいち" },
+                { "id": "s1-q01-3", "text": "ごとにち" },
+                { "id": "s1-q01-4", "text": "まいひ" }
               ],
-              "correctOptionId": "n5-v-p1-a",
-              "explanation": "Placeholder explanation."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "n5-lk-grammar-reading",
-      "type": "grammar",
-      "title": "言語知識（文法）・読解",
-      "timeLimitSeconds": 2700,
-      "subsections": [
-        {
-          "id": "n5-gr-grammar-1",
-          "title": "問題1 （　）に何を入れますか。1・2・3・4から最もよいものを一つえらんでください。",
-          "instructions": "Choose the best option to fill in the blank from 1–4.",
-          "questions": [
+              "correctOptionId": "s1-q01-1",
+              "explanation": "「毎日」は「まいにち」と読みます。'Mainichi' means 'every day'. 毎 (mai) = every, 日 (nichi) = day."
+            },
             {
-              "id": "n5-g-placeholder-1",
+              "id": "s1-q02",
               "type": "multiple-choice",
-              "questionText": "（Placeholder question — exam content coming soon）",
+              "questionText": "あの <u><ruby>山<rt>　</rt></ruby></u> は とても たかいです。",
               "options": [
-                { "id": "n5-g-p1-a", "text": "Option A" },
-                { "id": "n5-g-p1-b", "text": "Option B" },
-                { "id": "n5-g-p1-c", "text": "Option C" },
-                { "id": "n5-g-p1-d", "text": "Option D" }
+                { "id": "s1-q02-1", "text": "やま" },
+                { "id": "s1-q02-2", "text": "さん" },
+                { "id": "s1-q02-3", "text": "かわ" },
+                { "id": "s1-q02-4", "text": "しま" }
               ],
-              "correctOptionId": "n5-g-p1-a",
-              "explanation": "Placeholder explanation."
+              "correctOptionId": "s1-q02-1",
+              "explanation": "「山」は「やま」と読みます。'Yama' means 'mountain'. As a standalone word it reads やま; as a suffix (e.g. 富士山) it reads さん/ざん."
+            },
+            {
+              "id": "s1-q03",
+              "type": "multiple-choice",
+              "questionText": "<u><ruby>先生<rt>　　　</rt></ruby></u> は いま きょうしつに います。",
+              "options": [
+                { "id": "s1-q03-1", "text": "せんせい" },
+                { "id": "s1-q03-2", "text": "さきせい" },
+                { "id": "s1-q03-3", "text": "せんさい" },
+                { "id": "s1-q03-4", "text": "さきいき" }
+              ],
+              "correctOptionId": "s1-q03-1",
+              "explanation": "「先生」は「せんせい」と読みます。'Sensei' means 'teacher'. 先 (sen) = ahead/previous, 生 (sei) = life/person."
+            },
+            {
+              "id": "s1-q04",
+              "type": "multiple-choice",
+              "questionText": "<u><ruby>電車<rt>　　　</rt></ruby></u> で えきまで いきます。",
+              "options": [
+                { "id": "s1-q04-1", "text": "でんしゃ" },
+                { "id": "s1-q04-2", "text": "てんしゃ" },
+                { "id": "s1-q04-3", "text": "でんさ" },
+                { "id": "s1-q04-4", "text": "てんさ" }
+              ],
+              "correctOptionId": "s1-q04-1",
+              "explanation": "「電車」は「でんしゃ」と読みます。'Densha' means 'train'. 電 (den) = electricity, 車 (sha) = vehicle/car."
+            },
+            {
+              "id": "s1-q05",
+              "type": "multiple-choice",
+              "questionText": "きょうは <u><ruby>天気<rt>　　　</rt></ruby></u> が いいですね。",
+              "options": [
+                { "id": "s1-q05-1", "text": "てんき" },
+                { "id": "s1-q05-2", "text": "あまき" },
+                { "id": "s1-q05-3", "text": "そらき" },
+                { "id": "s1-q05-4", "text": "てんぎ" }
+              ],
+              "correctOptionId": "s1-q05-1",
+              "explanation": "「天気」は「てんき」と読みます。'Tenki' means 'weather'. 天 (ten) = sky/heaven, 気 (ki) = air/spirit."
+            },
+            {
+              "id": "s1-q06",
+              "type": "multiple-choice",
+              "questionText": "おとうとは いま <u><ruby>学校<rt>　　　</rt></ruby></u> に います。",
+              "options": [
+                { "id": "s1-q06-1", "text": "がっこう" },
+                { "id": "s1-q06-2", "text": "がこう" },
+                { "id": "s1-q06-3", "text": "かくこう" },
+                { "id": "s1-q06-4", "text": "がくこう" }
+              ],
+              "correctOptionId": "s1-q06-1",
+              "explanation": "「学校」は「がっこう」と読みます。'Gakkou' means 'school'. Note the double consonant (っ): 学 (gak-) + 校 (-kou)."
+            },
+            {
+              "id": "s1-q07",
+              "type": "multiple-choice",
+              "questionText": "<u><ruby>何時<rt>　　　</rt></ruby></u> に おきますか。",
+              "options": [
+                { "id": "s1-q07-1", "text": "なんじ" },
+                { "id": "s1-q07-2", "text": "なにじ" },
+                { "id": "s1-q07-3", "text": "いつじ" },
+                { "id": "s1-q07-4", "text": "なんとき" }
+              ],
+              "correctOptionId": "s1-q07-1",
+              "explanation": "「何時」は「なんじ」と読みます。'Nanji' means 'what time'. 何 (nan) = what, 時 (ji) = o'clock/time."
             }
           ]
         },
         {
-          "id": "n5-gr-reading-1",
-          "title": "問題4 つぎの文章を読んで、質問に答えてください。",
-          "instructions": "Read the following passage and answer the questions.",
-          "passages": [
-            {
-              "id": "n5-passage-1",
-              "title": "Placeholder Passage",
-              "text": "（Placeholder reading passage — exam content coming soon.）"
-            }
-          ],
+          "id": "s1-sub2",
+          "title": "問題２　＿＿＿の ことばは どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "instructions": "Choose the correct kanji/katakana writing for the underlined hiragana word.",
           "questions": [
             {
-              "id": "n5-r-placeholder-1",
-              "type": "reading-comprehension",
-              "questionText": "（Placeholder question — exam content coming soon）",
-              "passageRef": "n5-passage-1",
+              "id": "s1-q08",
+              "type": "multiple-choice",
+              "questionText": "えきの まえに <u>ぎんこう</u> が あります。",
               "options": [
-                { "id": "n5-r-p1-a", "text": "Option A" },
-                { "id": "n5-r-p1-b", "text": "Option B" },
-                { "id": "n5-r-p1-c", "text": "Option C" },
-                { "id": "n5-r-p1-d", "text": "Option D" }
+                { "id": "s1-q08-1", "text": "銀行" },
+                { "id": "s1-q08-2", "text": "金行" },
+                { "id": "s1-q08-3", "text": "銀工" },
+                { "id": "s1-q08-4", "text": "金工" }
               ],
-              "correctOptionId": "n5-r-p1-a",
+              "correctOptionId": "s1-q08-1",
+              "explanation": "「ぎんこう」は「銀行」と書きます。'Ginkou' means 'bank'. 銀 (gin) = silver, 行 (kou) = go/establishment."
+            },
+            {
+              "id": "s1-q09",
+              "type": "multiple-choice",
+              "questionText": "まいにち <u>にほんご</u> を べんきょう します。",
+              "options": [
+                { "id": "s1-q09-1", "text": "日本語" },
+                { "id": "s1-q09-2", "text": "日語本" },
+                { "id": "s1-q09-3", "text": "本日語" },
+                { "id": "s1-q09-4", "text": "日本言" }
+              ],
+              "correctOptionId": "s1-q09-1",
+              "explanation": "「にほんご」は「日本語」と書きます。'Nihongo' means 'Japanese language'. 日本 (Nihon) = Japan, 語 (go) = language."
+            },
+            {
+              "id": "s1-q10",
+              "type": "multiple-choice",
+              "questionText": "きのう としょかんで <u>ほん</u> を よみました。",
+              "options": [
+                { "id": "s1-q10-1", "text": "本" },
+                { "id": "s1-q10-2", "text": "文" },
+                { "id": "s1-q10-3", "text": "木" },
+                { "id": "s1-q10-4", "text": "元" }
+              ],
+              "correctOptionId": "s1-q10-1",
+              "explanation": "「ほん」は「本」と書きます。'Hon' means 'book'. Don't confuse with 木 (ki/tree), 文 (fumi/writing), or 元 (moto/origin)."
+            },
+            {
+              "id": "s1-q11",
+              "type": "multiple-choice",
+              "questionText": "ともだちと <u>かいもの</u> に いきます。",
+              "options": [
+                { "id": "s1-q11-1", "text": "買い物" },
+                { "id": "s1-q11-2", "text": "売い物" },
+                { "id": "s1-q11-3", "text": "貝物" },
+                { "id": "s1-q11-4", "text": "貸し物" }
+              ],
+              "correctOptionId": "s1-q11-1",
+              "explanation": "「かいもの」は「買い物」と書きます。'Kaimono' means 'shopping'. 買 (kai) = buy, 物 (mono) = thing."
+            },
+            {
+              "id": "s1-q12",
+              "type": "multiple-choice",
+              "questionText": "<u>くるま</u> で がっこうに きました。",
+              "options": [
+                { "id": "s1-q12-1", "text": "車" },
+                { "id": "s1-q12-2", "text": "軍" },
+                { "id": "s1-q12-3", "text": "単" },
+                { "id": "s1-q12-4", "text": "重" }
+              ],
+              "correctOptionId": "s1-q12-1",
+              "explanation": "「くるま」は「車」と書きます。'Kuruma' means 'car'. The kanji 車 depicts a wheel viewed from above."
+            }
+          ]
+        },
+        {
+          "id": "s1-sub3",
+          "title": "問題３　（　　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "instructions": "Choose the word that best fits the blank.",
+          "questions": [
+            {
+              "id": "s1-q13",
+              "type": "multiple-choice",
+              "questionText": "まいあさ６じに （　　） て、がっこうへ いきます。",
+              "options": [
+                { "id": "s1-q13-1", "text": "おき" },
+                { "id": "s1-q13-2", "text": "ね" },
+                { "id": "s1-q13-3", "text": "やすみ" },
+                { "id": "s1-q13-4", "text": "あそび" }
+              ],
+              "correctOptionId": "s1-q13-1",
+              "explanation": "「おきて」（起きて）が正解です。'Okite' means 'waking up (and then)'. The sentence means 'I wake up at 6 every morning and go to school.'"
+            },
+            {
+              "id": "s1-q14",
+              "type": "multiple-choice",
+              "questionText": "ふゆは とても （　　） から、あたたかい ふくを きます。",
+              "options": [
+                { "id": "s1-q14-1", "text": "さむい" },
+                { "id": "s1-q14-2", "text": "あつい" },
+                { "id": "s1-q14-3", "text": "すずしい" },
+                { "id": "s1-q14-4", "text": "あたたかい" }
+              ],
+              "correctOptionId": "s1-q14-1",
+              "explanation": "「さむい」（寒い）が正解です。'Samui' means 'cold'. The sentence: 'Because winter is very cold, I wear warm clothes.' あつい = hot, すずしい = cool, あたたかい = warm (contradicts wearing warm clothes)."
+            },
+            {
+              "id": "s1-q15",
+              "type": "multiple-choice",
+              "questionText": "すみません、もう すこし （　　） はなして ください。",
+              "options": [
+                { "id": "s1-q15-1", "text": "ゆっくり" },
+                { "id": "s1-q15-2", "text": "はやく" },
+                { "id": "s1-q15-3", "text": "たかく" },
+                { "id": "s1-q15-4", "text": "ちいさく" }
+              ],
+              "correctOptionId": "s1-q15-1",
+              "explanation": "「ゆっくり」が正解です。'Yukkuri' means 'slowly'. The sentence: 'Excuse me, please speak a little more slowly.' はやく = quickly, contradicting the request to be understood."
+            },
+            {
+              "id": "s1-q16",
+              "type": "multiple-choice",
+              "questionText": "きのう としょかんで ほんを ３さつ （　　） ました。",
+              "options": [
+                { "id": "s1-q16-1", "text": "かり" },
+                { "id": "s1-q16-2", "text": "かい" },
+                { "id": "s1-q16-3", "text": "うり" },
+                { "id": "s1-q16-4", "text": "かき" }
+              ],
+              "correctOptionId": "s1-q16-1",
+              "explanation": "「かりました」（借りました）が正解です。'Karimashita' means 'borrowed'. The sentence: 'Yesterday I borrowed 3 books from the library.' Libraries lend books, so 借りる (borrow) fits best."
+            },
+            {
+              "id": "s1-q17",
+              "type": "multiple-choice",
+              "questionText": "でんしゃの なかで おんがくを （　　） います。",
+              "options": [
+                { "id": "s1-q17-1", "text": "きいて" },
+                { "id": "s1-q17-2", "text": "みて" },
+                { "id": "s1-q17-3", "text": "よんで" },
+                { "id": "s1-q17-4", "text": "たべて" }
+              ],
+              "correctOptionId": "s1-q17-1",
+              "explanation": "「きいて」（聞いて）が正解です。'Kiite' means 'listening'. The sentence: 'I am listening to music on the train.' You listen (聞く) to music, not watch/read/eat it."
+            },
+            {
+              "id": "s1-q18",
+              "type": "multiple-choice",
+              "questionText": "おなかが すいたから、なにか （　　） たいです。",
+              "options": [
+                { "id": "s1-q18-1", "text": "たべ" },
+                { "id": "s1-q18-2", "text": "のみ" },
+                { "id": "s1-q18-3", "text": "ね" },
+                { "id": "s1-q18-4", "text": "あそび" }
+              ],
+              "correctOptionId": "s1-q18-1",
+              "explanation": "「たべたい」（食べたい）が正解です。'Tabetai' means 'want to eat'. The sentence: 'Because I'm hungry, I want to eat something.' Hunger → eating is the natural connection."
+            },
+            {
+              "id": "s1-q19",
+              "type": "multiple-choice",
+              "questionText": "あしたは しけんが あるから、きょう （　　） べんきょう します。",
+              "options": [
+                { "id": "s1-q19-1", "text": "たくさん" },
+                { "id": "s1-q19-2", "text": "すこし" },
+                { "id": "s1-q19-3", "text": "あまり" },
+                { "id": "s1-q19-4", "text": "ぜんぜん" }
+              ],
+              "correctOptionId": "s1-q19-1",
+              "explanation": "「たくさん」が正解です。'Takusan' means 'a lot'. The sentence: 'Because I have an exam tomorrow, I will study a lot today.' あまり and ぜんぜん are used with negatives, and すこし (a little) contradicts the urgency."
+            }
+          ]
+        },
+        {
+          "id": "s1-sub4",
+          "title": "問題４　＿＿＿の ぶんと だいたい おなじ いみの ぶんが あります。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "instructions": "Choose the option closest in meaning to the underlined word or phrase.",
+          "questions": [
+            {
+              "id": "s1-q20",
+              "type": "multiple-choice",
+              "questionText": "田中さんは <u>やさしい</u> 人です。",
+              "options": [
+                { "id": "s1-q20-1", "text": "しんせつな" },
+                { "id": "s1-q20-2", "text": "きびしい" },
+                { "id": "s1-q20-3", "text": "いそがしい" },
+                { "id": "s1-q20-4", "text": "こわい" }
+              ],
+              "correctOptionId": "s1-q20-1",
+              "explanation": "「やさしい」≈「しんせつな」。Both mean 'kind/gentle'. やさしい = gentle/easy-going, しんせつ（親切）= kind/considerate. きびしい = strict, いそがしい = busy, こわい = scary."
+            },
+            {
+              "id": "s1-q21",
+              "type": "multiple-choice",
+              "questionText": "その えいがは <u>おもしろ</u>かったです。",
+              "options": [
+                { "id": "s1-q21-1", "text": "たのしかった" },
+                { "id": "s1-q21-2", "text": "かなしかった" },
+                { "id": "s1-q21-3", "text": "こわかった" },
+                { "id": "s1-q21-4", "text": "つまらなかった" }
+              ],
+              "correctOptionId": "s1-q21-1",
+              "explanation": "「おもしろい」≈「たのしい」。Both convey enjoyment/entertainment. おもしろい = interesting/fun, たのしい = enjoyable/pleasant. かなしい = sad, こわい = scary, つまらない = boring (opposite)."
+            },
+            {
+              "id": "s1-q22",
+              "type": "multiple-choice",
+              "questionText": "でんしゃが <u>おくれました</u>。",
+              "options": [
+                { "id": "s1-q22-1", "text": "ちこくしました" },
+                { "id": "s1-q22-2", "text": "はやく きました" },
+                { "id": "s1-q22-3", "text": "じかんどおり きました" },
+                { "id": "s1-q22-4", "text": "とまりました" }
+              ],
+              "correctOptionId": "s1-q22-1",
+              "explanation": "「おくれました」（遅れました）≈「ちこくしました」（遅刻しました）。Both mean 'was late'. おくれる = to be delayed, ちこくする = to be late. とまりました = stopped."
+            },
+            {
+              "id": "s1-q23",
+              "type": "multiple-choice",
+              "questionText": "この しごとは <u>たいへん</u>です。",
+              "options": [
+                { "id": "s1-q23-1", "text": "むずかしくて つかれます" },
+                { "id": "s1-q23-2", "text": "かんたんです" },
+                { "id": "s1-q23-3", "text": "たのしいです" },
+                { "id": "s1-q23-4", "text": "やさしいです" }
+              ],
+              "correctOptionId": "s1-q23-1",
+              "explanation": "「たいへん」（大変）≈「むずかしくてつかれます」。'Taihen' means 'hard/tough/difficult', which implies being difficult and tiring. かんたん = easy (opposite), たのしい = fun."
+            },
+            {
+              "id": "s1-q24",
+              "type": "multiple-choice",
+              "questionText": "かれは <u>いつも</u> ちこくします。",
+              "options": [
+                { "id": "s1-q24-1", "text": "まいにち" },
+                { "id": "s1-q24-2", "text": "ときどき" },
+                { "id": "s1-q24-3", "text": "たまに" },
+                { "id": "s1-q24-4", "text": "あまり" }
+              ],
+              "correctOptionId": "s1-q24-1",
+              "explanation": "「いつも」≈「まいにち」。'Itsumo' means 'always/all the time', closest to まいにち (every day). ときどき = sometimes, たまに = occasionally, あまり = not much (used with negatives)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "type": "grammar",
+      "title": "言語知識（文法）・読解",
+      "timeLimitSeconds": 2400,
+      "subsections": [
+        {
+          "id": "s2-sub1",
+          "title": "問題１　（　　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "instructions": "Choose the correct grammar form to fill in the blank.",
+          "questions": [
+            {
+              "id": "s2-placeholder-1",
+              "type": "multiple-choice",
+              "questionText": "（Section 2 grammar questions — coming in next sprint）",
+              "options": [
+                { "id": "s2-p1-1", "text": "Option 1" },
+                { "id": "s2-p1-2", "text": "Option 2" },
+                { "id": "s2-p1-3", "text": "Option 3" },
+                { "id": "s2-p1-4", "text": "Option 4" }
+              ],
+              "correctOptionId": "s2-p1-1",
               "explanation": "Placeholder explanation."
             }
           ]
@@ -89,27 +381,27 @@
       ]
     },
     {
-      "id": "n5-listening",
+      "id": "section-3",
       "type": "listening",
       "title": "聴解",
       "timeLimitSeconds": 1800,
       "subsections": [
         {
-          "id": "n5-listening-1",
-          "title": "問題1 まず話を聞いてください。それから、質問を聞いて、1から4の中から、最もよいものを一つえらんでください。",
-          "instructions": "Listen to the conversation, then choose the best answer from 1–4.",
+          "id": "s3-sub1",
+          "title": "問題１　まず はなしを きいて ください。それから、しつもんを きいて、１から４の なかから、いちばん いい ものを ひとつ えらんで ください。",
+          "instructions": "Read the dialogue transcript, then choose the best answer.",
           "questions": [
             {
-              "id": "n5-l-placeholder-1",
+              "id": "s3-placeholder-1",
               "type": "listening-comprehension",
-              "questionText": "（Placeholder listening question — audio and exam content coming soon）",
+              "questionText": "（Section 3 listening questions — coming in a later sprint）",
               "options": [
-                { "id": "n5-l-p1-a", "text": "Option A" },
-                { "id": "n5-l-p1-b", "text": "Option B" },
-                { "id": "n5-l-p1-c", "text": "Option C" },
-                { "id": "n5-l-p1-d", "text": "Option D" }
+                { "id": "s3-p1-1", "text": "Option 1" },
+                { "id": "s3-p1-2", "text": "Option 2" },
+                { "id": "s3-p1-3", "text": "Option 3" },
+                { "id": "s3-p1-4", "text": "Option 4" }
               ],
-              "correctOptionId": "n5-l-p1-a",
+              "correctOptionId": "s3-p1-1",
               "explanation": "Placeholder explanation."
             }
           ]

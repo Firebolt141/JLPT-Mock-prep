@@ -51,9 +51,10 @@ export function QuestionCard({
             {questionNumber}
           </span>
           <div className="flex-1">
-            <p className="text-base text-[#1A1A1A] leading-relaxed">
-              {question.questionText}
-            </p>
+            <p
+              className="text-base text-[#1A1A1A] leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: question.questionText }}
+            />
           </div>
         </div>
 
