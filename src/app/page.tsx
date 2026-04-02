@@ -21,9 +21,7 @@ export default function LandingPage() {
               <p className="text-xs text-[#6B7280]">JLPT Mock Exam Platform</p>
             </div>
           </div>
-          <nav className="flex items-center gap-6 text-sm text-[#6B7280]">
-            <span>SAP Internal</span>
-          </nav>
+          <nav className="flex items-center gap-6 text-sm text-[#6B7280]" />
         </div>
       </header>
 
@@ -35,7 +33,7 @@ export default function LandingPage() {
               <div className="inline-flex items-center gap-3 px-5 py-2.5 bg-[#1B2A4A]/8 rounded-full border border-[#1B2A4A]/15 mb-6">
                 <span className="text-[#1B2A4A] font-medium text-sm">SAP Nihongo Community</span>
                 <span className="text-[#6B7280] text-sm">·</span>
-                <span className="text-[#6B7280] text-sm">日本語学習プログラム</span>
+                <span className="text-[#6B7280] text-sm">Upskilling Program</span>
               </div>
             </motion.div>
 
@@ -131,7 +129,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-gray-100 px-8 py-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between text-xs text-[#6B7280]">
-          <span>SAP Nihongo Community · JLPT Mock Exam</span>
+          <span>JLPT Mock Exam</span>
           <span>日本語能力試験模擬テスト</span>
         </div>
       </footer>

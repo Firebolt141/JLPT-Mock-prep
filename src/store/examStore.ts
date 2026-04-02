@@ -2,7 +2,7 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { ExamSet, ExamScores, ResultsHistoryEntry } from '@/src/types/exam';
+import type { ExamResult, ExamSet, ExamScores } from '@/src/types/exam';
 
 interface ExamState {
   // Participant info
@@ -31,10 +31,8 @@ interface ExamState {
 
   // Final scores for current exam
   examScores: ExamScores | null;
+  attemptHistory: ExamResult[];
   hasHydrated: boolean;
-
-  // All-time results history (persisted in localStorage)
-  resultsHistory: ResultsHistoryEntry[];
 
   // Actions
   setParticipantInfo: (name: string, email: string) => void;
@@ -48,6 +46,7 @@ interface ExamState {
   completeSection: (sectionId: string) => void;
   updateSectionTimer: (sectionId: string, seconds: number) => void;
   completeExam: (scores: ExamScores) => void;
+  clearAttemptHistory: () => void;
   resetExam: () => void;
   setHasHydrated: (hydrated: boolean) => void;
 }
@@ -62,7 +61,8 @@ const initialExamState = {
   examCompleted: false,
   examSet: null,
   examScores: null,
-  // hasHydrated intentionally excluded — it must never be reset by startExam/resetExam
+  attemptHistory: [],
+  hasHydrated: false,
 };
 
 export const useExamStore = create<ExamState>()(
@@ -153,16 +153,37 @@ export const useExamStore = create<ExamState>()(
         });
       },
 
+      completeExam: (scores) =>
+        set((state) => {
+          const result: ExamResult | null = state.examSet
+            ? {
+                participantName: state.participantName,
+                teamName: state.teamName || undefined,
+                examId: state.examSet.id,
+                examLevel: state.examSet.level,
+                answers: state.answers,
+                completedAt: new Date().toISOString(),
+                scores,
+              }
+            : null;
+
+          return {
+            examCompleted: true,
+            examScores: scores,
+            attemptHistory: result
+              ? [...state.attemptHistory, result]
+              : state.attemptHistory,
+          };
+        }),
+
+      clearAttemptHistory: () => set({ attemptHistory: [] }),
+
       resetExam: () =>
         set((state) => ({
-          ...initialExamState,
-          participantName: state.participantName,
-          email: state.email,
-          examSet: state.examSet,
-          resultsHistory: state.resultsHistory,
+          ...initialState,
+          attemptHistory: state.attemptHistory,
           hasHydrated: state.hasHydrated,
         })),
-
       setHasHydrated: (hydrated) => set({ hasHydrated: hydrated }),
     }),
     {
@@ -180,6 +201,7 @@ export const useExamStore = create<ExamState>()(
         examStarted: state.examStarted,
         examCompleted: state.examCompleted,
         examScores: state.examScores,
+        attemptHistory: state.attemptHistory,
         currentSectionIndex: state.currentSectionIndex,
         currentQuestionIndex: state.currentQuestionIndex,
         resultsHistory: state.resultsHistory,

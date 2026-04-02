@@ -1492,7 +1492,8 @@
                 }
               ],
               "correctOptionId": "s3-q01-2",
-              "explanation": "B says うどんをたべたい, so B will order udon."
+              "explanation": "B says うどんをたべたい, so B will order udon.",
+              "audioUrl": "/audio/Track001.mp3"
             },
             {
               "id": "s3-q02",
@@ -1517,7 +1518,8 @@
                 }
               ],
               "correctOptionId": "s3-q02-3",
-              "explanation": "They change the plan to 11 o'clock."
+              "explanation": "They change the plan to 11 o'clock.",
+              "audioUrl": "/audio/Track002.mp3"
             },
             {
               "id": "s3-q03",
@@ -1542,7 +1544,8 @@
                 }
               ],
               "correctOptionId": "s3-q03-1",
-              "explanation": "B clearly says go straight and turn right at the second corner."
+              "explanation": "B clearly says go straight and turn right at the second corner.",
+              "audioUrl": "/audio/Track003.mp3"
             },
             {
               "id": "s3-q04",
@@ -1567,7 +1570,8 @@
                 }
               ],
               "correctOptionId": "s3-q04-2",
-              "explanation": "They cancel tennis and decide to watch a movie at home."
+              "explanation": "They cancel tennis and decide to watch a movie at home.",
+              "audioUrl": "/audio/Track004.mp3"
             },
             {
               "id": "s3-q05",
@@ -1592,7 +1596,8 @@
                 }
               ],
               "correctOptionId": "s3-q05-3",
-              "explanation": "A asks B to bring juice."
+              "explanation": "A asks B to bring juice.",
+              "audioUrl": "/audio/Track005.mp3"
             },
             {
               "id": "s3-q06",
@@ -1617,7 +1622,8 @@
                 }
               ],
               "correctOptionId": "s3-q06-2",
-              "explanation": "Ticket counter is on the first floor, so that is the next action."
+              "explanation": "Ticket counter is on the first floor, so that is the next action.",
+              "audioUrl": "/audio/Track006.mp3"
             }
           ]
         },
@@ -1649,7 +1655,8 @@
                 }
               ],
               "correctOptionId": "s3-q07-2",
-              "explanation": "B says the first is expensive and likes the color of the cheaper one."
+              "explanation": "B says the first is expensive and likes the color of the cheaper one.",
+              "audioUrl": "/audio/Track007.mp3"
             },
             {
               "id": "s3-q08",
@@ -1674,7 +1681,8 @@
                 }
               ],
               "correctOptionId": "s3-q08-3",
-              "explanation": "They move the plan because Saturday's forecast is rain."
+              "explanation": "They move the plan because Saturday's forecast is rain.",
+              "audioUrl": "/audio/Track008.mp3"
             },
             {
               "id": "s3-q09",
@@ -1699,7 +1707,8 @@
                 }
               ],
               "correctOptionId": "s3-q09-2",
-              "explanation": "A says さかなにします after B's recommendation."
+              "explanation": "A says さかなにします after B's recommendation.",
+              "audioUrl": "/audio/Track009.mp3"
             },
             {
               "id": "s3-q10",
@@ -1724,7 +1733,8 @@
                 }
               ],
               "correctOptionId": "s3-q10-1",
-              "explanation": "Both key points are stated explicitly: test day and study plan."
+              "explanation": "Both key points are stated explicitly: test day and study plan.",
+              "audioUrl": "/audio/Track010.mp3"
             },
             {
               "id": "s3-q11",
@@ -1749,7 +1759,8 @@
                 }
               ],
               "correctOptionId": "s3-q11-2",
-              "explanation": "A buys it after hearing it is very tasty."
+              "explanation": "A buys it after hearing it is very tasty.",
+              "audioUrl": "/audio/Track011.mp3"
             },
             {
               "id": "s3-q12",
@@ -1774,7 +1785,8 @@
                 }
               ],
               "correctOptionId": "s3-q12-1",
-              "explanation": "A first asks specifically for a window-side seat."
+              "explanation": "A first asks specifically for a window-side seat.",
+              "audioUrl": "/audio/Track012.mp3"
             }
           ]
         },
@@ -1802,7 +1814,8 @@
                 }
               ],
               "correctOptionId": "s3-q13-1",
-              "explanation": "This is the natural phrase to ask a stranger for directions."
+              "explanation": "This is the natural phrase to ask a stranger for directions.",
+              "audioUrl": "/audio/Track013.mp3"
             },
             {
               "id": "s3-q14",
@@ -1823,7 +1836,8 @@
                 }
               ],
               "correctOptionId": "s3-q14-3",
-              "explanation": "ごちそうさまでした is said after finishing a meal."
+              "explanation": "ごちそうさまでした is said after finishing a meal.",
+              "audioUrl": "/audio/Track014.mp3"
             },
             {
               "id": "s3-q15",
@@ -1844,7 +1858,8 @@
                 }
               ],
               "correctOptionId": "s3-q15-1",
-              "explanation": "Asking for repetition politely: もういちどお願いします."
+              "explanation": "Asking for repetition politely: もういちどお願いします.",
+              "audioUrl": "/audio/Track015.mp3"
             },
             {
               "id": "s3-q16",
@@ -1865,7 +1880,8 @@
                 }
               ],
               "correctOptionId": "s3-q16-1",
-              "explanation": "すみません is used for apologies in daily situations."
+              "explanation": "すみません is used for apologies in daily situations.",
+              "audioUrl": "/audio/Track016.mp3"
             },
             {
               "id": "s3-q17",
@@ -1886,7 +1902,8 @@
                 }
               ],
               "correctOptionId": "s3-q17-2",
-              "explanation": "You thank the teacher: ありがとうございました."
+              "explanation": "You thank the teacher: ありがとうございました.",
+              "audioUrl": "/audio/Track017.mp3"
             }
           ]
         },
@@ -1914,7 +1931,8 @@
                 }
               ],
               "correctOptionId": "s3-q18-1",
-              "explanation": "The natural response to a morning greeting is the same greeting."
+              "explanation": "The natural response to a morning greeting is the same greeting.",
+              "audioUrl": "/audio/Track018.mp3"
             },
             {
               "id": "s3-q19",
@@ -1935,7 +1953,8 @@
                 }
               ],
               "correctOptionId": "s3-q19-1",
-              "explanation": "Only option 1 directly answers the yes/no question."
+              "explanation": "Only option 1 directly answers the yes/no question.",
+              "audioUrl": "/audio/Track019.mp3"
             },
             {
               "id": "s3-q20",
@@ -1956,7 +1975,8 @@
                 }
               ],
               "correctOptionId": "s3-q20-1",
-              "explanation": "はい、どうぞ is the natural response to a request."
+              "explanation": "はい、どうぞ is the natural response to a request.",
+              "audioUrl": "/audio/Track020.mp3"
             },
             {
               "id": "s3-q21",
@@ -1977,7 +1997,8 @@
                 }
               ],
               "correctOptionId": "s3-q21-2",
-              "explanation": "The polite response to congratulations is ありがとうございます."
+              "explanation": "The polite response to congratulations is ありがとうございます.",
+              "audioUrl": "/audio/Track021.mp3"
             },
             {
               "id": "s3-q22",
@@ -1998,7 +2019,8 @@
                 }
               ],
               "correctOptionId": "s3-q22-1",
-              "explanation": "In a store context, this is the appropriate helpful reply."
+              "explanation": "In a store context, this is the appropriate helpful reply.",
+              "audioUrl": "/audio/Track022.mp3"
             },
             {
               "id": "s3-q23",
@@ -2019,7 +2041,8 @@
                 }
               ],
               "correctOptionId": "s3-q23-1",
-              "explanation": "どういたしまして is the natural response to thanks."
+              "explanation": "どういたしまして is the natural response to thanks.",
+              "audioUrl": "/audio/Track023.mp3"
             }
           ]
         }
