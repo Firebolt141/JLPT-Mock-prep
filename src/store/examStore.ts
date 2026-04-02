@@ -51,6 +51,7 @@ interface ExamState {
   setHasHydrated: (hydrated: boolean) => void;
 }
 
+// hasHydrated intentionally excluded — must never be reset by startExam/resetExam
 const initialExamState = {
   currentSectionIndex: 0,
   currentQuestionIndex: 0,
@@ -62,7 +63,6 @@ const initialExamState = {
   examSet: null,
   examScores: null,
   attemptHistory: [],
-  hasHydrated: false,
 };
 
 export const useExamStore = create<ExamState>()(
@@ -70,7 +70,6 @@ export const useExamStore = create<ExamState>()(
     (set, get) => ({
       participantName: '',
       email: '',
-      resultsHistory: [],
       hasHydrated: false,
       ...initialExamState,
 
@@ -135,30 +134,12 @@ export const useExamStore = create<ExamState>()(
           sectionTimers: { ...state.sectionTimers, [sectionId]: seconds },
         })),
 
-      completeExam: (scores) => {
-        const { participantName, email, examSet, resultsHistory } = get();
-        const entry: ResultsHistoryEntry = {
-          id: `${email}-${Date.now()}`,
-          participantName,
-          email,
-          examId: examSet?.id ?? 'unknown',
-          examLevel: examSet?.level ?? 'N5',
-          scores,
-          completedAt: new Date().toISOString(),
-        };
-        set({
-          examCompleted: true,
-          examScores: scores,
-          resultsHistory: [entry, ...resultsHistory],
-        });
-      },
-
       completeExam: (scores) =>
         set((state) => {
           const result: ExamResult | null = state.examSet
             ? {
                 participantName: state.participantName,
-                teamName: state.teamName || undefined,
+                email: state.email,
                 examId: state.examSet.id,
                 examLevel: state.examSet.level,
                 answers: state.answers,
@@ -180,10 +161,14 @@ export const useExamStore = create<ExamState>()(
 
       resetExam: () =>
         set((state) => ({
-          ...initialState,
+          ...initialExamState,
+          participantName: state.participantName,
+          email: state.email,
+          examSet: state.examSet,
           attemptHistory: state.attemptHistory,
           hasHydrated: state.hasHydrated,
         })),
+
       setHasHydrated: (hydrated) => set({ hasHydrated: hydrated }),
     }),
     {
@@ -204,7 +189,6 @@ export const useExamStore = create<ExamState>()(
         attemptHistory: state.attemptHistory,
         currentSectionIndex: state.currentSectionIndex,
         currentQuestionIndex: state.currentQuestionIndex,
-        resultsHistory: state.resultsHistory,
       }),
     }
   )
