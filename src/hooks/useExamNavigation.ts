@@ -25,12 +25,10 @@ export function useExamNavigation() {
   const totalSections = examSet?.sections.length ?? 0;
   const totalQuestionsInSection = allQuestionsInSection.length;
 
-  const isFirstQuestion =
-    currentSectionIndex === 0 && currentQuestionIndex === 0;
+  // Scoped to the current section so Prev/Next stay within section bounds.
+  const isFirstQuestion = currentQuestionIndex === 0;
 
-  const isLastQuestion =
-    currentSectionIndex === totalSections - 1 &&
-    currentQuestionIndex === totalQuestionsInSection - 1;
+  const isLastQuestion = currentQuestionIndex === totalQuestionsInSection - 1;
 
   const isLastSection = currentSectionIndex === totalSections - 1;
 
