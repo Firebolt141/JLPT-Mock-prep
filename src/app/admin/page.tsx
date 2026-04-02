@@ -89,17 +89,20 @@ export default function AdminPage() {
       'passed',
     ];
 
-    const rows = attempts.map((a) => ([
+    const rows = attempts.map((a) => {
+      const teamName = (a as { teamName?: string }).teamName ?? '';
+      return ([
       a.completedAt,
       a.participantName,
-      a.teamName ?? '',
+      teamName,
       a.examId,
       a.examLevel,
       String(a.scores.totalScore),
       String(a.scores.lkrScore),
       String(a.scores.listeningScore),
       a.scores.passed ? 'PASS' : 'FAIL',
-    ]));
+      ]);
+    });
 
     const csv = [headers, ...rows]
       .map((row) => row.map((value) => `"${String(value).replaceAll('"', '""')}"`).join(','))
@@ -203,7 +206,7 @@ export default function AdminPage() {
                 {[...attempts].reverse().map((a, idx) => (
                   <tr key={`${a.completedAt}-${idx}`} className="border-b border-gray-100">
                     <td className="py-2">{a.participantName}</td>
-                    <td className="py-2">{a.teamName ?? '-'}</td>
+                    <td className="py-2">{(a as { teamName?: string }).teamName ?? '-'}</td>
                     <td className="py-2">{new Date(a.completedAt).toLocaleString()}</td>
                     <td className="py-2">{a.scores.lkrScore}</td>
                     <td className="py-2">{a.scores.listeningScore}</td>
