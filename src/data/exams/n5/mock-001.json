@@ -654,7 +654,7 @@
             {
               "id": "s2-q01",
               "type": "multiple-choice",
-              "questionText": "わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> ７<ruby>時<rt>じ</rt></ruby> （　　） <ruby>起<rt>お</rt></ruby>きます。",
+              "questionText": "わたしは まいあさ ７<ruby>時<rt>じ</rt></ruby> （　　） おきます。",
               "options": [
                 {
                   "id": "s2-q01-1",
@@ -666,240 +666,240 @@
                 },
                 {
                   "id": "s2-q01-3",
-                  "text": "で"
+                  "text": "へ"
                 },
                 {
                   "id": "s2-q01-4",
-                  "text": "へ"
+                  "text": "で"
                 }
               ],
               "correctOptionId": "s2-q01-2",
-              "explanation": "Use に for a specific time: ７時に起きます. 日本語では、時間の点を言うとき『に』を使います。"
+              "explanation": "Use に once here for a specific clock time: 7時に起きます."
             },
             {
               "id": "s2-q02",
               "type": "multiple-choice",
-              "questionText": "<ruby>昨日<rt>きのう</rt></ruby>、スーパー（　　） <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を かいました。",
+              "questionText": "<ruby>宿題<rt>しゅくだい</rt></ruby>を して（　　）、テレビを <ruby>見<rt>み</rt></ruby>ます。",
               "options": [
                 {
                   "id": "s2-q02-1",
-                  "text": "が"
+                  "text": "から"
                 },
                 {
                   "id": "s2-q02-2",
-                  "text": "に"
+                  "text": "まで"
                 },
                 {
                   "id": "s2-q02-3",
-                  "text": "で"
+                  "text": "てから"
                 },
                 {
                   "id": "s2-q02-4",
-                  "text": "は"
+                  "text": "ながら"
                 }
               ],
               "correctOptionId": "s2-q02-3",
-              "explanation": "で marks the place where an action happens: スーパーで買いました. 動作の場所は『で』です。"
+              "explanation": "〜てから means 'after doing A, do B'."
             },
             {
               "id": "s2-q03",
               "type": "multiple-choice",
-              "questionText": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>友<rt>とも</rt></ruby>だち（　　） <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。",
+              "questionText": "いま <ruby>弟<rt>おとうと</rt></ruby>は <ruby>音楽<rt>おんがく</rt></ruby>を （　　）。",
               "options": [
                 {
                   "id": "s2-q03-1",
-                  "text": "が"
+                  "text": "ききます"
                 },
                 {
                   "id": "s2-q03-2",
-                  "text": "に"
+                  "text": "きいています"
                 },
                 {
                   "id": "s2-q03-3",
-                  "text": "と"
+                  "text": "ききたいです"
                 },
                 {
                   "id": "s2-q03-4",
-                  "text": "へ"
+                  "text": "ききません"
                 }
               ],
-              "correctOptionId": "s2-q03-3",
-              "explanation": "と is used for doing something together with someone. 『友だちと映画を見ました』が自然です。"
+              "correctOptionId": "s2-q03-2",
+              "explanation": "いま indicates ongoing action, so use 〜ている."
             },
             {
               "id": "s2-q04",
               "type": "multiple-choice",
-              "questionText": "<ruby>今晩<rt>こんばん</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>を （　　）です。",
+              "questionText": "<ruby>夏休<rt>なつやす</rt></ruby>みに <ruby>沖縄<rt>おきなわ</rt></ruby>へ （　　）です。",
               "options": [
                 {
                   "id": "s2-q04-1",
-                  "text": "べんきょうし"
+                  "text": "いきたい"
                 },
                 {
                   "id": "s2-q04-2",
-                  "text": "べんきょうして"
+                  "text": "いきます"
                 },
                 {
                   "id": "s2-q04-3",
-                  "text": "べんきょうしたい"
+                  "text": "いって"
                 },
                 {
                   "id": "s2-q04-4",
-                  "text": "べんきょうしない"
+                  "text": "いかない"
                 }
               ],
-              "correctOptionId": "s2-q04-3",
-              "explanation": "～たい expresses desire: 勉強したいです (I want to study). 『～たい』は希望を表します。"
+              "correctOptionId": "s2-q04-1",
+              "explanation": "〜たい expresses desire: 'want to go'."
             },
             {
               "id": "s2-q05",
               "type": "multiple-choice",
-              "questionText": "ここで <ruby>写真<rt>しゃしん</rt></ruby>を （　　）ください。",
+              "questionText": "きょうは <ruby>日曜日<rt>にちようび</rt></ruby>ですが、<ruby>父<rt>ちち</rt></ruby>は （　　）。",
               "options": [
                 {
                   "id": "s2-q05-1",
-                  "text": "とる"
+                  "text": "はたらきます"
                 },
                 {
                   "id": "s2-q05-2",
-                  "text": "とって"
+                  "text": "はたらきません"
                 },
                 {
                   "id": "s2-q05-3",
-                  "text": "とり"
+                  "text": "はたらいて"
                 },
                 {
                   "id": "s2-q05-4",
-                  "text": "とった"
+                  "text": "はたらきたいです"
                 }
               ],
               "correctOptionId": "s2-q05-2",
-              "explanation": "For requests, use て-form + ください: とってください. 依頼の形は『～てください』です。"
+              "explanation": "Negative polite form is 〜ません: 働きません."
             },
             {
               "id": "s2-q06",
               "type": "multiple-choice",
-              "questionText": "<ruby>田中<rt>たなか</rt></ruby>さんは いま <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を （　　）。",
+              "questionText": "わたしは コーヒー（　　） おちゃも のみます。",
               "options": [
                 {
                   "id": "s2-q06-1",
-                  "text": "よみます"
+                  "text": "を"
                 },
                 {
                   "id": "s2-q06-2",
-                  "text": "よみました"
+                  "text": "も"
                 },
                 {
                   "id": "s2-q06-3",
-                  "text": "よんでいます"
+                  "text": "だけ"
                 },
                 {
                   "id": "s2-q06-4",
-                  "text": "よみたいです"
+                  "text": "より"
                 }
               ],
-              "correctOptionId": "s2-q06-3",
-              "explanation": "いま indicates an ongoing action, so use ～ている: 読んでいます. 今している動作には『～ている』を使います。"
+              "correctOptionId": "s2-q06-2",
+              "explanation": "も means 'also/too': I drink tea too."
             },
             {
               "id": "s2-q07",
               "type": "multiple-choice",
-              "questionText": "あした <ruby>雨<rt>あめ</rt></ruby>が （　　）から、かさを もって いきます。",
+              "questionText": "この みせは ９<ruby>時<rt>じ</rt></ruby>（　　） あいています。",
               "options": [
                 {
                   "id": "s2-q07-1",
-                  "text": "ふります"
+                  "text": "から"
                 },
                 {
                   "id": "s2-q07-2",
-                  "text": "ふる"
+                  "text": "だけ"
                 },
                 {
                   "id": "s2-q07-3",
-                  "text": "ふって"
+                  "text": "も"
                 },
                 {
                   "id": "s2-q07-4",
-                  "text": "ふらない"
+                  "text": "より"
                 }
               ],
-              "correctOptionId": "s2-q07-2",
-              "explanation": "Before から giving a reason in plain style, use dictionary form: 雨がふるから. 理由の前の普通形として『ふる』が正しいです。"
+              "correctOptionId": "s2-q07-1",
+              "explanation": "から marks a starting point in time: from 9 o'clock."
             },
             {
               "id": "s2-q08",
               "type": "multiple-choice",
-              "questionText": "きのうの <ruby>夜<rt>よる</rt></ruby>は <ruby>肉<rt>にく</rt></ruby>を （　　）。",
+              "questionText": "<ruby>図書館<rt>としょかん</rt></ruby>は ６<ruby>時<rt>じ</rt></ruby>（　　）です。",
               "options": [
                 {
                   "id": "s2-q08-1",
-                  "text": "たべます"
+                  "text": "まで"
                 },
                 {
                   "id": "s2-q08-2",
-                  "text": "たべません"
+                  "text": "から"
                 },
                 {
                   "id": "s2-q08-3",
-                  "text": "たべました"
+                  "text": "だけ"
                 },
                 {
                   "id": "s2-q08-4",
-                  "text": "たべたいです"
+                  "text": "も"
                 }
               ],
-              "correctOptionId": "s2-q08-3",
-              "explanation": "きのう indicates past time, so use past polite form ～ました: 食べました. 過去の文なので『～ました』です。"
+              "correctOptionId": "s2-q08-1",
+              "explanation": "まで marks an endpoint: open until 6 o'clock."
             },
             {
               "id": "s2-q09",
               "type": "multiple-choice",
-              "questionText": "<ruby>駅<rt>えき</rt></ruby>へは この みちを まっすぐ （　　）。",
+              "questionText": "<ruby>電車<rt>でんしゃ</rt></ruby>の なかで はなして（　　） いけません。",
               "options": [
                 {
                   "id": "s2-q09-1",
-                  "text": "いきます"
+                  "text": "も"
                 },
                 {
                   "id": "s2-q09-2",
-                  "text": "いってください"
+                  "text": "は"
                 },
                 {
                   "id": "s2-q09-3",
-                  "text": "いきたいです"
+                  "text": "で"
                 },
                 {
                   "id": "s2-q09-4",
-                  "text": "いきません"
+                  "text": "を"
                 }
               ],
               "correctOptionId": "s2-q09-2",
-              "explanation": "Giving directions uses て-form + ください: 行ってください. 道案内では『～てください』が自然です。"
+              "explanation": "〜てはいけません expresses prohibition: must not do."
             },
             {
               "id": "s2-q10",
               "type": "multiple-choice",
-              "questionText": "きょうは <ruby>日曜日<rt>にちようび</rt></ruby>ですが、<ruby>父<rt>ちち</rt></ruby>は （　　）。",
+              "questionText": "<ruby>兄<rt>あに</rt></ruby>は テレビを <ruby>見<rt>み</rt></ruby>（　　） <ruby>晩<rt>ばん</rt></ruby>ごはんを たべています。",
               "options": [
                 {
                   "id": "s2-q10-1",
-                  "text": "はたらきます"
+                  "text": "まで"
                 },
                 {
                   "id": "s2-q10-2",
-                  "text": "はたらきません"
+                  "text": "より"
                 },
                 {
                   "id": "s2-q10-3",
-                  "text": "はたらいて"
+                  "text": "ながら"
                 },
                 {
                   "id": "s2-q10-4",
-                  "text": "はたらいた"
+                  "text": "だけ"
                 }
               ],
-              "correctOptionId": "s2-q10-2",
-              "explanation": "The sentence needs present negative polite: 父は働きません. 現在否定の丁寧形は『働きません』です。"
+              "correctOptionId": "s2-q10-3",
+              "explanation": "ながら means doing two actions simultaneously."
             }
           ]
         },
@@ -1042,18 +1042,18 @@
           "passages": [
             {
               "id": "s2-passage-1",
-              "title": "<ruby>朝<rt>あさ</rt></ruby>の じゅんび",
-              "text": "わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> ６<ruby>時<rt>じ</rt></ruby>に おきます。それから、<ruby>顔<rt>かお</rt></ruby>を あらって、<ruby>朝<rt>あさ</rt></ruby>ごはんを たべます。"
+              "title": "<ruby>学校<rt>がっこう</rt></ruby>の ルール",
+              "text": "この <ruby>学校<rt>がっこう</rt></ruby>では、<ruby>教室<rt>きょうしつ</rt></ruby>で パンを たべてもいいです。でも、じゅぎょうちゅうは ねては いけません。"
             },
             {
               "id": "s2-passage-2",
-              "title": "<ruby>買<rt>か</rt></ruby>いもの",
-              "text": "きのう、<ruby>母<rt>はは</rt></ruby>と スーパーへ いきました。やさいと さかなを かって、<ruby>家<rt>いえ</rt></ruby>で ばんごはんを つくりました。"
+              "title": "<ruby>家族<rt>かぞく</rt></ruby>の はなし",
+              "text": "<ruby>姉<rt>あね</rt></ruby>は わたしより せが たかいです。わたしは <ruby>姉<rt>あね</rt></ruby>と まいばん いっしょに <ruby>勉強<rt>べんきょう</rt></ruby>します。"
             },
             {
               "id": "s2-passage-3",
-              "title": "しゅうまつ",
-              "text": "<ruby>土曜日<rt>どようび</rt></ruby>は いい てんきでした。<ruby>公園<rt>こうえん</rt></ruby>で <ruby>友<rt>とも</rt></ruby>だちと サッカーを して、たのしかったです。"
+              "title": "まちあわせ",
+              "text": "<ruby>今日<rt>きょう</rt></ruby>は さむくて、<ruby>風<rt>かぜ</rt></ruby>も つよいです。だから、<ruby>駅<rt>えき</rt></ruby>の まえで またないで、カフェの なかで まちましょう。"
             }
           ],
           "questions": [
@@ -1061,131 +1061,131 @@
               "id": "s2-q16",
               "type": "multiple-choice",
               "passageRef": "s2-passage-1",
-              "questionText": "わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> ６<ruby>時<rt>じ</rt></ruby>（　　） おきます。",
+              "questionText": "この <ruby>学校<rt>がっこう</rt></ruby>では、<ruby>教室<rt>きょうしつ</rt></ruby>で パンを （　　）。",
               "options": [
                 {
                   "id": "s2-q16-1",
-                  "text": "を"
+                  "text": "たべてもいいです"
                 },
                 {
                   "id": "s2-q16-2",
-                  "text": "に"
+                  "text": "たべなければなりません"
                 },
                 {
                   "id": "s2-q16-3",
-                  "text": "で"
+                  "text": "たべてはいけません"
                 },
                 {
                   "id": "s2-q16-4",
-                  "text": "と"
+                  "text": "たべないでください"
                 }
               ],
-              "correctOptionId": "s2-q16-2",
-              "explanation": "Specific time takes に: ６時に起きます. 時間の点には『に』を使います。"
+              "correctOptionId": "s2-q16-1",
+              "explanation": "The passage explicitly says eating bread in class is permitted (〜てもいい)."
             },
             {
               "id": "s2-q17",
               "type": "multiple-choice",
               "passageRef": "s2-passage-1",
-              "questionText": "それから、<ruby>顔<rt>かお</rt></ruby>を あらって、<ruby>朝<rt>あさ</rt></ruby>ごはんを （　　）。",
+              "questionText": "じゅぎょうちゅうは ねて（　　）。",
               "options": [
                 {
                   "id": "s2-q17-1",
-                  "text": "たべます"
+                  "text": "もいいです"
                 },
                 {
                   "id": "s2-q17-2",
-                  "text": "たべたい"
+                  "text": "は いけません"
                 },
                 {
                   "id": "s2-q17-3",
-                  "text": "たべない"
+                  "text": "だけです"
                 },
                 {
                   "id": "s2-q17-4",
-                  "text": "たべて"
+                  "text": "より だめです"
                 }
               ],
-              "correctOptionId": "s2-q17-1",
-              "explanation": "The passage states a routine in polite present: 朝ごはんをたべます. 習慣の文なので『～ます』が合います。"
+              "correctOptionId": "s2-q17-2",
+              "explanation": "The rule is prohibition: 〜てはいけません (must not)."
             },
             {
               "id": "s2-q18",
               "type": "multiple-choice",
               "passageRef": "s2-passage-2",
-              "questionText": "きのう、<ruby>母<rt>はは</rt></ruby>と スーパーへ （　　）。",
+              "questionText": "<ruby>姉<rt>あね</rt></ruby>は わたし（　　） せが たかいです。",
               "options": [
                 {
                   "id": "s2-q18-1",
-                  "text": "いきます"
+                  "text": "だけ"
                 },
                 {
                   "id": "s2-q18-2",
-                  "text": "いきました"
+                  "text": "まで"
                 },
                 {
                   "id": "s2-q18-3",
-                  "text": "いきたいです"
+                  "text": "より"
                 },
                 {
                   "id": "s2-q18-4",
-                  "text": "いきません"
+                  "text": "も"
                 }
               ],
-              "correctOptionId": "s2-q18-2",
-              "explanation": "きのう requires past form: いきました. 過去の出来事なので『～ました』です。"
+              "correctOptionId": "s2-q18-3",
+              "explanation": "より is used for comparison: taller than me."
             },
             {
               "id": "s2-q19",
               "type": "multiple-choice",
               "passageRef": "s2-passage-2",
-              "questionText": "やさいと さかなを かって、<ruby>家<rt>いえ</rt></ruby>（　　） ばんごはんを つくりました。",
+              "questionText": "わたしは <ruby>姉<rt>あね</rt></ruby>（　　） まいばん いっしょに <ruby>勉強<rt>べんきょう</rt></ruby>します。",
               "options": [
                 {
                   "id": "s2-q19-1",
-                  "text": "で"
+                  "text": "が"
                 },
                 {
                   "id": "s2-q19-2",
-                  "text": "に"
+                  "text": "と"
                 },
                 {
                   "id": "s2-q19-3",
-                  "text": "へ"
+                  "text": "で"
                 },
                 {
                   "id": "s2-q19-4",
-                  "text": "を"
+                  "text": "へ"
                 }
               ],
-              "correctOptionId": "s2-q19-1",
-              "explanation": "で marks where an action is done: 家で作りました. 動作の場所には『で』を使います。"
+              "correctOptionId": "s2-q19-2",
+              "explanation": "と marks doing an action together with someone."
             },
             {
               "id": "s2-q20",
               "type": "multiple-choice",
               "passageRef": "s2-passage-3",
-              "questionText": "<ruby>公園<rt>こうえん</rt></ruby>で <ruby>友<rt>とも</rt></ruby>だちと サッカーを して、（　　）です。",
+              "questionText": "<ruby>今日<rt>きょう</rt></ruby>は さむ（　　）、<ruby>風<rt>かぜ</rt></ruby>も つよいです。",
               "options": [
                 {
                   "id": "s2-q20-1",
-                  "text": "たのしい"
+                  "text": "いで"
                 },
                 {
                   "id": "s2-q20-2",
-                  "text": "たのしかった"
+                  "text": "くて"
                 },
                 {
                   "id": "s2-q20-3",
-                  "text": "たのしく"
+                  "text": "から"
                 },
                 {
                   "id": "s2-q20-4",
-                  "text": "たのしみ"
+                  "text": "だけ"
                 }
               ],
               "correctOptionId": "s2-q20-2",
-              "explanation": "The passage describes last Saturday, so past i-adjective is needed: たのしかったです. 過去の感想は『たのしかったです』です。"
+              "explanation": "For い-adjective connection, use 〜くて: さむくて、風も強いです."
             }
           ]
         },
@@ -1466,33 +1466,560 @@
       "subsections": [
         {
           "id": "s3-sub1",
-          "title": "問題１　まず はなしを きいて ください。それから、しつもんを きいて、１から４の なかから、いちばん いい ものを ひとつ えらんで ください。",
-          "instructions": "Read the dialogue transcript, then choose the best answer.",
+          "title": "問題１　スクリプトを よんで、どんな こうどうを するか えらんで ください。",
+          "instructions": "Read the dialogue transcript and choose what action should be taken.",
           "questions": [
             {
-              "id": "s3-placeholder-1",
-              "type": "listening-comprehension",
-              "questionText": "（Section 3 listening questions — coming in a later sprint）",
+              "id": "s3-q01",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：<ruby>田中<rt>たなか</rt></ruby>さん、<ruby>昼<rt>ひる</rt></ruby>ごはん、なにを たべますか。\nB：うどんを たべたいです。Aさんは？\nA：わたしは カレーにします。\n\nBさんは このあと なにを しますか。",
               "options": [
                 {
-                  "id": "s3-p1-1",
-                  "text": "Option 1"
+                  "id": "s3-q01-1",
+                  "text": "カレーを たのみます"
                 },
                 {
-                  "id": "s3-p1-2",
-                  "text": "Option 2"
+                  "id": "s3-q01-2",
+                  "text": "うどんを たのみます"
                 },
                 {
-                  "id": "s3-p1-3",
-                  "text": "Option 3"
+                  "id": "s3-q01-3",
+                  "text": "なにも たべません"
                 },
                 {
-                  "id": "s3-p1-4",
-                  "text": "Option 4"
+                  "id": "s3-q01-4",
+                  "text": "みずを かいます"
                 }
               ],
-              "correctOptionId": "s3-p1-1",
-              "explanation": "Placeholder explanation."
+              "correctOptionId": "s3-q01-2",
+              "explanation": "B says うどんをたべたい, so B will order udon."
+            },
+            {
+              "id": "s3-q02",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：あした なんじに <ruby>会<rt>あ</rt></ruby>いますか。\nB：１０<ruby>時<rt>じ</rt></ruby>は どうですか。\nA：すみません、１０<ruby>時<rt>じ</rt></ruby>は じゅぎょうです。\nB：じゃあ、１１<ruby>時<rt>じ</rt></ruby>に しましょう。\n\nAさんは あした なんじに <ruby>会<rt>あ</rt></ruby>いますか。",
+              "options": [
+                {
+                  "id": "s3-q02-1",
+                  "text": "９<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s3-q02-2",
+                  "text": "１０<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s3-q02-3",
+                  "text": "１１<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s3-q02-4",
+                  "text": "１２<ruby>時<rt>じ</rt></ruby>"
+                }
+              ],
+              "correctOptionId": "s3-q02-3",
+              "explanation": "They change the plan to 11 o'clock."
+            },
+            {
+              "id": "s3-q03",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：すみません、<ruby>駅<rt>えき</rt></ruby>は どこですか。\nB：この みちを まっすぐ いって、２つめを みぎです。\nA：ありがとうございます。\n\nAさんは このあと どう いきますか。",
+              "options": [
+                {
+                  "id": "s3-q03-1",
+                  "text": "まっすぐ いって、２つめを みぎに まがります"
+                },
+                {
+                  "id": "s3-q03-2",
+                  "text": "まっすぐ いって、１つめを ひだりに まがります"
+                },
+                {
+                  "id": "s3-q03-3",
+                  "text": "すぐ ひだりに まがります"
+                },
+                {
+                  "id": "s3-q03-4",
+                  "text": "うしろへ もどります"
+                }
+              ],
+              "correctOptionId": "s3-q03-1",
+              "explanation": "B clearly says go straight and turn right at the second corner."
+            },
+            {
+              "id": "s3-q04",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：きょうは <ruby>雨<rt>あめ</rt></ruby>ですね。\nB：そうですね。じゃあ、テニスは やめましょう。\nA：はい。うちで <ruby>映画<rt>えいが</rt></ruby>を みませんか。\nB：いいですね。\n\nふたりは このあと なにを しますか。",
+              "options": [
+                {
+                  "id": "s3-q04-1",
+                  "text": "テニスを します"
+                },
+                {
+                  "id": "s3-q04-2",
+                  "text": "うちで <ruby>映画<rt>えいが</rt></ruby>を みます"
+                },
+                {
+                  "id": "s3-q04-3",
+                  "text": "プールへ いきます"
+                },
+                {
+                  "id": "s3-q04-4",
+                  "text": "<ruby>買<rt>か</rt></ruby>いものを します"
+                }
+              ],
+              "correctOptionId": "s3-q04-2",
+              "explanation": "They cancel tennis and decide to watch a movie at home."
+            },
+            {
+              "id": "s3-q05",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>明日<rt>あした</rt></ruby>の パーティーに きますか。\nB：はい、いきます。なにか もって いきますか。\nA：ジュースを おねがいします。\n\nBさんは なにを もって いきますか。",
+              "options": [
+                {
+                  "id": "s3-q05-1",
+                  "text": "ケーキ"
+                },
+                {
+                  "id": "s3-q05-2",
+                  "text": "パン"
+                },
+                {
+                  "id": "s3-q05-3",
+                  "text": "ジュース"
+                },
+                {
+                  "id": "s3-q05-4",
+                  "text": "くだもの"
+                }
+              ],
+              "correctOptionId": "s3-q05-3",
+              "explanation": "A asks B to bring juice."
+            },
+            {
+              "id": "s3-q06",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：すみません、きっぷうりばは どこですか。\nB：この <ruby>建物<rt>たてもの</rt></ruby>の １<ruby>階<rt>かい</rt></ruby>です。\nA：エレベーターは ありますか。\nB：はい、あちらです。\n\nAさんは このあと まず なにを しますか。",
+              "options": [
+                {
+                  "id": "s3-q06-1",
+                  "text": "２<ruby>階<rt>かい</rt></ruby>へ いきます"
+                },
+                {
+                  "id": "s3-q06-2",
+                  "text": "１<ruby>階<rt>かい</rt></ruby>へ いきます"
+                },
+                {
+                  "id": "s3-q06-3",
+                  "text": "うちへ かえります"
+                },
+                {
+                  "id": "s3-q06-4",
+                  "text": "でんしゃに のります"
+                }
+              ],
+              "correctOptionId": "s3-q06-2",
+              "explanation": "Ticket counter is on the first floor, so that is the next action."
+            }
+          ]
+        },
+        {
+          "id": "s3-sub2",
+          "title": "問題２　スクリプトを よんで、なにが いちばん たいせつか えらんで ください。",
+          "instructions": "Read the dialogue transcript and identify the key point.",
+          "questions": [
+            {
+              "id": "s3-q07",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：この シャツ、どうですか。\nB：いいですね。でも ちょっと たかいですね。\nA：じゃあ、あの あおい シャツは？\nB：あれは やすいし、いろも すきです。\n\nBさんにとって いちばん たいせつな ポイントは なんですか。",
+              "options": [
+                {
+                  "id": "s3-q07-1",
+                  "text": "みせの <ruby>場所<rt>ばしょ</rt></ruby>"
+                },
+                {
+                  "id": "s3-q07-2",
+                  "text": "<ruby>値段<rt>ねだん</rt></ruby>と いろ"
+                },
+                {
+                  "id": "s3-q07-3",
+                  "text": "<ruby>店員<rt>てんいん</rt></ruby>の <ruby>名前<rt>なまえ</rt></ruby>"
+                },
+                {
+                  "id": "s3-q07-4",
+                  "text": "サイズだけ"
+                }
+              ],
+              "correctOptionId": "s3-q07-2",
+              "explanation": "B says the first is expensive and likes the color of the cheaper one."
+            },
+            {
+              "id": "s3-q08",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：<ruby>土曜日<rt>どようび</rt></ruby>、<ruby>海<rt>うみ</rt></ruby>へ いきませんか。\nB：いいですね。でも てんきよほうは <ruby>雨<rt>あめ</rt></ruby>ですよ。\nA：じゃあ、<ruby>日曜日<rt>にちようび</rt></ruby>に しましょう。\nB：はい、そうしましょう。\n\nふたりが <ruby>日曜日<rt>にちようび</rt></ruby>に した いちばんの <ruby>理由<rt>りゆう</rt></ruby>は なんですか。",
+              "options": [
+                {
+                  "id": "s3-q08-1",
+                  "text": "バスが ないから"
+                },
+                {
+                  "id": "s3-q08-2",
+                  "text": "Aさんが しごとだから"
+                },
+                {
+                  "id": "s3-q08-3",
+                  "text": "<ruby>土曜日<rt>どようび</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>の よほうだから"
+                },
+                {
+                  "id": "s3-q08-4",
+                  "text": "Bさんが ねぼうしたから"
+                }
+              ],
+              "correctOptionId": "s3-q08-3",
+              "explanation": "They move the plan because Saturday's forecast is rain."
+            },
+            {
+              "id": "s3-q09",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：この レストラン、さかなと にく、どちらが おすすめですか。\nB：さかなが おいしいですよ。\nA：じゃあ、さかなに します。\n\nAさんは なにを えらびましたか。",
+              "options": [
+                {
+                  "id": "s3-q09-1",
+                  "text": "にく"
+                },
+                {
+                  "id": "s3-q09-2",
+                  "text": "さかな"
+                },
+                {
+                  "id": "s3-q09-3",
+                  "text": "サラダ"
+                },
+                {
+                  "id": "s3-q09-4",
+                  "text": "カレー"
+                }
+              ],
+              "correctOptionId": "s3-q09-2",
+              "explanation": "A says さかなにします after B's recommendation."
+            },
+            {
+              "id": "s3-q10",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：<ruby>木村<rt>きむら</rt></ruby>さん、<ruby>来週<rt>らいしゅう</rt></ruby>の テストは いつですか。\nB：<ruby>火曜日<rt>かようび</rt></ruby>です。\nA：ありがとう。じゃあ <ruby>月曜日<rt>げつようび</rt></ruby>に いっしょに <ruby>勉強<rt>べんきょう</rt></ruby>しませんか。\nB：いいですよ。\n\nこの かいわで たいせつな じょうほうは どれですか。",
+              "options": [
+                {
+                  "id": "s3-q10-1",
+                  "text": "テストは <ruby>火曜日<rt>かようび</rt></ruby>で、<ruby>月曜日<rt>げつようび</rt></ruby>に いっしょに <ruby>勉強<rt>べんきょう</rt></ruby>する"
+                },
+                {
+                  "id": "s3-q10-2",
+                  "text": "テストは <ruby>木曜日<rt>もくようび</rt></ruby>"
+                },
+                {
+                  "id": "s3-q10-3",
+                  "text": "<ruby>今日<rt>きょう</rt></ruby> テストが ある"
+                },
+                {
+                  "id": "s3-q10-4",
+                  "text": "<ruby>勉強<rt>べんきょう</rt></ruby>は しない"
+                }
+              ],
+              "correctOptionId": "s3-q10-1",
+              "explanation": "Both key points are stated explicitly: test day and study plan."
+            },
+            {
+              "id": "s3-q11",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：この ケーキ、あまいですか。\nB：はい、でも とても おいしいです。\nA：じゃあ、ひとつ ください。\n\nAさんが ケーキを かった <ruby>理由<rt>りゆう</rt></ruby>は なんですか。",
+              "options": [
+                {
+                  "id": "s3-q11-1",
+                  "text": "やすいから"
+                },
+                {
+                  "id": "s3-q11-2",
+                  "text": "おいしいと <ruby>聞<rt>き</rt></ruby>いたから"
+                },
+                {
+                  "id": "s3-q11-3",
+                  "text": "<ruby>友<rt>とも</rt></ruby>だちに もらったから"
+                },
+                {
+                  "id": "s3-q11-4",
+                  "text": "パンが ないから"
+                }
+              ],
+              "correctOptionId": "s3-q11-2",
+              "explanation": "A buys it after hearing it is very tasty."
+            },
+            {
+              "id": "s3-q12",
+              "type": "multiple-choice",
+              "questionText": "【スクリプト】\nA：すみません、<ruby>窓側<rt>まどがわ</rt></ruby>の せきは ありますか。\nB：はい、あります。\nA：じゃあ、そこを おねがいします。\n\nAさんが いちばん ほしいものは なんですか。",
+              "options": [
+                {
+                  "id": "s3-q12-1",
+                  "text": "<ruby>窓側<rt>まどがわ</rt></ruby>の せき"
+                },
+                {
+                  "id": "s3-q12-2",
+                  "text": "メニュー"
+                },
+                {
+                  "id": "s3-q12-3",
+                  "text": "みず"
+                },
+                {
+                  "id": "s3-q12-4",
+                  "text": "レシート"
+                }
+              ],
+              "correctOptionId": "s3-q12-1",
+              "explanation": "A first asks specifically for a window-side seat."
+            }
+          ]
+        },
+        {
+          "id": "s3-sub3",
+          "title": "問題３　どんな ときに この ことばを いいますか。１・２・３から えらんで ください。",
+          "instructions": "Choose the most appropriate thing to say in the situation.",
+          "questions": [
+            {
+              "id": "s3-q13",
+              "type": "multiple-choice",
+              "questionText": "<ruby>道<rt>みち</rt></ruby>に まよいました。しらない ひとに <ruby>駅<rt>えき</rt></ruby>の <ruby>場所<rt>ばしょ</rt></ruby>を ききたいです。なんと いいますか。",
+              "options": [
+                {
+                  "id": "s3-q13-1",
+                  "text": "すみません、<ruby>駅<rt>えき</rt></ruby>は どこですか。"
+                },
+                {
+                  "id": "s3-q13-2",
+                  "text": "ごちそうさまでした。"
+                },
+                {
+                  "id": "s3-q13-3",
+                  "text": "おやすみなさい。"
+                }
+              ],
+              "correctOptionId": "s3-q13-1",
+              "explanation": "This is the natural phrase to ask a stranger for directions."
+            },
+            {
+              "id": "s3-q14",
+              "type": "multiple-choice",
+              "questionText": "ともだちの うちで ごはんを たべおわりました。なんと いいますか。",
+              "options": [
+                {
+                  "id": "s3-q14-1",
+                  "text": "いってきます。"
+                },
+                {
+                  "id": "s3-q14-2",
+                  "text": "いただきます。"
+                },
+                {
+                  "id": "s3-q14-3",
+                  "text": "ごちそうさまでした。"
+                }
+              ],
+              "correctOptionId": "s3-q14-3",
+              "explanation": "ごちそうさまでした is said after finishing a meal."
+            },
+            {
+              "id": "s3-q15",
+              "type": "multiple-choice",
+              "questionText": "あした しけんが あるので、せんせいに もう いちど せつめいして ほしいです。なんと いいますか。",
+              "options": [
+                {
+                  "id": "s3-q15-1",
+                  "text": "もう いちど おねがいします。"
+                },
+                {
+                  "id": "s3-q15-2",
+                  "text": "どういたしまして。"
+                },
+                {
+                  "id": "s3-q15-3",
+                  "text": "はじめまして。"
+                }
+              ],
+              "correctOptionId": "s3-q15-1",
+              "explanation": "Asking for repetition politely: もういちどお願いします."
+            },
+            {
+              "id": "s3-q16",
+              "type": "multiple-choice",
+              "questionText": "でんしゃで となりの ひとの かさが あたりました。あいてに いう ことばは どれですか。",
+              "options": [
+                {
+                  "id": "s3-q16-1",
+                  "text": "すみません。"
+                },
+                {
+                  "id": "s3-q16-2",
+                  "text": "いただきます。"
+                },
+                {
+                  "id": "s3-q16-3",
+                  "text": "いらっしゃいませ。"
+                }
+              ],
+              "correctOptionId": "s3-q16-1",
+              "explanation": "すみません is used for apologies in daily situations."
+            },
+            {
+              "id": "s3-q17",
+              "type": "multiple-choice",
+              "questionText": "せんせいに ほんを かして もらいました。<ruby>返<rt>かえ</rt></ruby>す とき、なんと いいますか。",
+              "options": [
+                {
+                  "id": "s3-q17-1",
+                  "text": "おねがいします。"
+                },
+                {
+                  "id": "s3-q17-2",
+                  "text": "ありがとうございました。"
+                },
+                {
+                  "id": "s3-q17-3",
+                  "text": "ただいま。"
+                }
+              ],
+              "correctOptionId": "s3-q17-2",
+              "explanation": "You thank the teacher: ありがとうございました."
+            }
+          ]
+        },
+        {
+          "id": "s3-sub4",
+          "title": "問題４　なんと いいますか。１・２・３から えらんで ください。",
+          "instructions": "Read the statement or question and choose the most natural reply.",
+          "questions": [
+            {
+              "id": "s3-q18",
+              "type": "multiple-choice",
+              "questionText": "おはようございます。",
+              "options": [
+                {
+                  "id": "s3-q18-1",
+                  "text": "おはようございます。"
+                },
+                {
+                  "id": "s3-q18-2",
+                  "text": "おやすみなさい。"
+                },
+                {
+                  "id": "s3-q18-3",
+                  "text": "いただきます。"
+                }
+              ],
+              "correctOptionId": "s3-q18-1",
+              "explanation": "The natural response to a morning greeting is the same greeting."
+            },
+            {
+              "id": "s3-q19",
+              "type": "multiple-choice",
+              "questionText": "<ruby>今日<rt>きょう</rt></ruby>は いそがしいですか。",
+              "options": [
+                {
+                  "id": "s3-q19-1",
+                  "text": "はい、すこし いそがしいです。"
+                },
+                {
+                  "id": "s3-q19-2",
+                  "text": "どうぞ よろしく。"
+                },
+                {
+                  "id": "s3-q19-3",
+                  "text": "ごちそうさま。"
+                }
+              ],
+              "correctOptionId": "s3-q19-1",
+              "explanation": "Only option 1 directly answers the yes/no question."
+            },
+            {
+              "id": "s3-q20",
+              "type": "multiple-choice",
+              "questionText": "すみません、えんぴつを かして ください。",
+              "options": [
+                {
+                  "id": "s3-q20-1",
+                  "text": "はい、どうぞ。"
+                },
+                {
+                  "id": "s3-q20-2",
+                  "text": "おだいじに。"
+                },
+                {
+                  "id": "s3-q20-3",
+                  "text": "ごめんください。"
+                }
+              ],
+              "correctOptionId": "s3-q20-1",
+              "explanation": "はい、どうぞ is the natural response to a request."
+            },
+            {
+              "id": "s3-q21",
+              "type": "multiple-choice",
+              "questionText": "<ruby>誕生日<rt>たんじょうび</rt></ruby> おめでとうございます。",
+              "options": [
+                {
+                  "id": "s3-q21-1",
+                  "text": "おじゃまします。"
+                },
+                {
+                  "id": "s3-q21-2",
+                  "text": "ありがとうございます。"
+                },
+                {
+                  "id": "s3-q21-3",
+                  "text": "いただきます。"
+                }
+              ],
+              "correctOptionId": "s3-q21-2",
+              "explanation": "The polite response to congratulations is ありがとうございます."
+            },
+            {
+              "id": "s3-q22",
+              "type": "multiple-choice",
+              "questionText": "この ふく、ためしても いいですか。",
+              "options": [
+                {
+                  "id": "s3-q22-1",
+                  "text": "はい、<ruby>試着室<rt>しちゃくしつ</rt></ruby>は あちらです。"
+                },
+                {
+                  "id": "s3-q22-2",
+                  "text": "いいえ、あしたです。"
+                },
+                {
+                  "id": "s3-q22-3",
+                  "text": "さようなら。"
+                }
+              ],
+              "correctOptionId": "s3-q22-1",
+              "explanation": "In a store context, this is the appropriate helpful reply."
+            },
+            {
+              "id": "s3-q23",
+              "type": "multiple-choice",
+              "questionText": "<ruby>手伝<rt>てつだ</rt></ruby>って くれて ありがとう。",
+              "options": [
+                {
+                  "id": "s3-q23-1",
+                  "text": "どういたしまして。"
+                },
+                {
+                  "id": "s3-q23-2",
+                  "text": "おつかれさまでした。"
+                },
+                {
+                  "id": "s3-q23-3",
+                  "text": "いただきます。"
+                }
+              ],
+              "correctOptionId": "s3-q23-1",
+              "explanation": "どういたしまして is the natural response to thanks."
             }
           ]
         }
