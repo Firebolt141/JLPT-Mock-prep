@@ -1,8 +1,10 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useExamStore } from '@/src/store/examStore';
+import { hasRequiredFirebaseConfig } from '@/src/lib/firebase';
+import { subscribeToCloudAttempts, type CloudExamAttempt } from '@/src/lib/firebaseAttempts';
 import { Button } from '@/src/components/ui/Button';
 import { Card } from '@/src/components/ui/Card';
 
@@ -19,12 +21,28 @@ function downloadFile(filename: string, content: string, mimeType: string) {
 }
 
 export default function AdminPage() {
-  const attempts = useExamStore((s) => s.attemptHistory);
+  const localAttempts = useExamStore((s) => s.attemptHistory);
   const clearAttemptHistory = useExamStore((s) => s.clearAttemptHistory);
 
   const [pin, setPin] = useState('');
   const [authorized, setAuthorized] = useState(false);
   const [error, setError] = useState('');
+
+  const [cloudAttempts, setCloudAttempts] = useState<CloudExamAttempt[]>([]);
+  const [isCloudConnected, setIsCloudConnected] = useState(false);
+
+  useEffect(() => {
+    const unsubscribe = subscribeToCloudAttempts((nextAttempts) => {
+      setCloudAttempts(nextAttempts);
+      setIsCloudConnected(true);
+    });
+
+    return () => {
+      unsubscribe?.();
+    };
+  }, []);
+
+  const attempts = isCloudConnected ? cloudAttempts : localAttempts;
 
   const stats = useMemo(() => {
     const total = attempts.length;
@@ -155,6 +173,16 @@ export default function AdminPage() {
             <Button variant="ghost" onClick={clearAttemptHistory}>Clear Data</Button>
           </div>
         </div>
+
+        <Card>
+          <p className="text-sm text-[#6B7280]">
+            Data source:{' '}
+            <span className="font-semibold text-[#1B2A4A]">
+              {isCloudConnected ? 'Firebase Firestore (Realtime)' : 'Local fallback (Firebase not connected yet)'}
+            </span>
+            {!hasRequiredFirebaseConfig && ' — Missing NEXT_PUBLIC_FIREBASE_* environment variables.'}
+          </p>
+        </Card>
 
         <div className="grid md:grid-cols-3 gap-4">
           <Card><p className="text-sm text-[#6B7280]">Total Attempts</p><p className="text-3xl font-bold text-[#1B2A4A]">{stats.total}</p></Card>
