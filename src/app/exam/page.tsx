@@ -14,6 +14,7 @@ import { Button } from '@/src/components/ui/Button';
 import { Logo } from '@/src/components/ui/Logo';
 import { ProgressBar } from '@/src/components/ui/ProgressBar';
 import { cn } from '@/src/lib/utils';
+import { saveAttemptToCloud } from '@/src/lib/firebaseAttempts';
 
 type ExamPhase = 'section-intro' | 'question' | 'submitting';
 
@@ -22,6 +23,7 @@ export default function ExamPage() {
   const examStarted = useExamStore((s) => s.examStarted);
   const examCompleted = useExamStore((s) => s.examCompleted);
   const participantName = useExamStore((s) => s.participantName);
+  const email = useExamStore((s) => s.email);
   const answers = useExamStore((s) => s.answers);
   const setAnswer = useExamStore((s) => s.setAnswer);
   const completeSection = useExamStore((s) => s.completeSection);
@@ -107,8 +109,20 @@ export default function ExamPage() {
   const handleSubmitExam = () => {
     if (!examSet) return;
     setPhase('submitting');
+
     const scores = calculateScores(examSet, answers);
     completeExam(scores);
+
+    void saveAttemptToCloud({
+      participantName,
+      email,
+      examId: examSet.id,
+      examLevel: examSet.level,
+      answers,
+      completedAt: new Date().toISOString(),
+      scores,
+    });
+
     router.push('/results');
   };
 
