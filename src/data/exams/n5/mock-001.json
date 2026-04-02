@@ -20,10 +20,22 @@
               "type": "multiple-choice",
               "questionText": "わたしは <u><ruby>毎日<rt>　　　</rt></ruby></u> バスで がっこうへ いきます。",
               "options": [
-                { "id": "s1-q01-1", "text": "まいにち" },
-                { "id": "s1-q01-2", "text": "まいち" },
-                { "id": "s1-q01-3", "text": "ごとにち" },
-                { "id": "s1-q01-4", "text": "まいひ" }
+                {
+                  "id": "s1-q01-1",
+                  "text": "まいにち"
+                },
+                {
+                  "id": "s1-q01-2",
+                  "text": "まいち"
+                },
+                {
+                  "id": "s1-q01-3",
+                  "text": "ごとにち"
+                },
+                {
+                  "id": "s1-q01-4",
+                  "text": "まいひ"
+                }
               ],
               "correctOptionId": "s1-q01-1",
               "explanation": "「毎日」は「まいにち」と読みます。'Mainichi' means 'every day'. 毎 (mai) = every, 日 (nichi) = day."
@@ -33,10 +45,22 @@
               "type": "multiple-choice",
               "questionText": "あの <u><ruby>山<rt>　</rt></ruby></u> は とても たかいです。",
               "options": [
-                { "id": "s1-q02-1", "text": "やま" },
-                { "id": "s1-q02-2", "text": "さん" },
-                { "id": "s1-q02-3", "text": "かわ" },
-                { "id": "s1-q02-4", "text": "しま" }
+                {
+                  "id": "s1-q02-1",
+                  "text": "やま"
+                },
+                {
+                  "id": "s1-q02-2",
+                  "text": "さん"
+                },
+                {
+                  "id": "s1-q02-3",
+                  "text": "かわ"
+                },
+                {
+                  "id": "s1-q02-4",
+                  "text": "しま"
+                }
               ],
               "correctOptionId": "s1-q02-1",
               "explanation": "「山」は「やま」と読みます。'Yama' means 'mountain'. As a standalone word it reads やま; as a suffix (e.g. 富士山) it reads さん/ざん."
@@ -46,10 +70,22 @@
               "type": "multiple-choice",
               "questionText": "<u><ruby>先生<rt>　　　</rt></ruby></u> は いま きょうしつに います。",
               "options": [
-                { "id": "s1-q03-1", "text": "せんせい" },
-                { "id": "s1-q03-2", "text": "さきせい" },
-                { "id": "s1-q03-3", "text": "せんさい" },
-                { "id": "s1-q03-4", "text": "さきいき" }
+                {
+                  "id": "s1-q03-1",
+                  "text": "せんせい"
+                },
+                {
+                  "id": "s1-q03-2",
+                  "text": "さきせい"
+                },
+                {
+                  "id": "s1-q03-3",
+                  "text": "せんさい"
+                },
+                {
+                  "id": "s1-q03-4",
+                  "text": "さきいき"
+                }
               ],
               "correctOptionId": "s1-q03-1",
               "explanation": "「先生」は「せんせい」と読みます。'Sensei' means 'teacher'. 先 (sen) = ahead/previous, 生 (sei) = life/person."
@@ -59,10 +95,22 @@
               "type": "multiple-choice",
               "questionText": "<u><ruby>電車<rt>　　　</rt></ruby></u> で えきまで いきます。",
               "options": [
-                { "id": "s1-q04-1", "text": "でんしゃ" },
-                { "id": "s1-q04-2", "text": "てんしゃ" },
-                { "id": "s1-q04-3", "text": "でんさ" },
-                { "id": "s1-q04-4", "text": "てんさ" }
+                {
+                  "id": "s1-q04-1",
+                  "text": "でんしゃ"
+                },
+                {
+                  "id": "s1-q04-2",
+                  "text": "てんしゃ"
+                },
+                {
+                  "id": "s1-q04-3",
+                  "text": "でんさ"
+                },
+                {
+                  "id": "s1-q04-4",
+                  "text": "てんさ"
+                }
               ],
               "correctOptionId": "s1-q04-1",
               "explanation": "「電車」は「でんしゃ」と読みます。'Densha' means 'train'. 電 (den) = electricity, 車 (sha) = vehicle/car."
@@ -72,10 +120,22 @@
               "type": "multiple-choice",
               "questionText": "きょうは <u><ruby>天気<rt>　　　</rt></ruby></u> が いいですね。",
               "options": [
-                { "id": "s1-q05-1", "text": "てんき" },
-                { "id": "s1-q05-2", "text": "あまき" },
-                { "id": "s1-q05-3", "text": "そらき" },
-                { "id": "s1-q05-4", "text": "てんぎ" }
+                {
+                  "id": "s1-q05-1",
+                  "text": "てんき"
+                },
+                {
+                  "id": "s1-q05-2",
+                  "text": "あまき"
+                },
+                {
+                  "id": "s1-q05-3",
+                  "text": "そらき"
+                },
+                {
+                  "id": "s1-q05-4",
+                  "text": "てんぎ"
+                }
               ],
               "correctOptionId": "s1-q05-1",
               "explanation": "「天気」は「てんき」と読みます。'Tenki' means 'weather'. 天 (ten) = sky/heaven, 気 (ki) = air/spirit."
@@ -85,10 +145,22 @@
               "type": "multiple-choice",
               "questionText": "おとうとは いま <u><ruby>学校<rt>　　　</rt></ruby></u> に います。",
               "options": [
-                { "id": "s1-q06-1", "text": "がっこう" },
-                { "id": "s1-q06-2", "text": "がこう" },
-                { "id": "s1-q06-3", "text": "かくこう" },
-                { "id": "s1-q06-4", "text": "がくこう" }
+                {
+                  "id": "s1-q06-1",
+                  "text": "がっこう"
+                },
+                {
+                  "id": "s1-q06-2",
+                  "text": "がこう"
+                },
+                {
+                  "id": "s1-q06-3",
+                  "text": "かくこう"
+                },
+                {
+                  "id": "s1-q06-4",
+                  "text": "がくこう"
+                }
               ],
               "correctOptionId": "s1-q06-1",
               "explanation": "「学校」は「がっこう」と読みます。'Gakkou' means 'school'. Note the double consonant (っ): 学 (gak-) + 校 (-kou)."
@@ -98,10 +170,22 @@
               "type": "multiple-choice",
               "questionText": "<u><ruby>何時<rt>　　　</rt></ruby></u> に おきますか。",
               "options": [
-                { "id": "s1-q07-1", "text": "なんじ" },
-                { "id": "s1-q07-2", "text": "なにじ" },
-                { "id": "s1-q07-3", "text": "いつじ" },
-                { "id": "s1-q07-4", "text": "なんとき" }
+                {
+                  "id": "s1-q07-1",
+                  "text": "なんじ"
+                },
+                {
+                  "id": "s1-q07-2",
+                  "text": "なにじ"
+                },
+                {
+                  "id": "s1-q07-3",
+                  "text": "いつじ"
+                },
+                {
+                  "id": "s1-q07-4",
+                  "text": "なんとき"
+                }
               ],
               "correctOptionId": "s1-q07-1",
               "explanation": "「何時」は「なんじ」と読みます。'Nanji' means 'what time'. 何 (nan) = what, 時 (ji) = o'clock/time."
@@ -118,10 +202,22 @@
               "type": "multiple-choice",
               "questionText": "えきの まえに <u>ぎんこう</u> が あります。",
               "options": [
-                { "id": "s1-q08-1", "text": "銀行" },
-                { "id": "s1-q08-2", "text": "金行" },
-                { "id": "s1-q08-3", "text": "銀工" },
-                { "id": "s1-q08-4", "text": "金工" }
+                {
+                  "id": "s1-q08-1",
+                  "text": "銀行"
+                },
+                {
+                  "id": "s1-q08-2",
+                  "text": "金行"
+                },
+                {
+                  "id": "s1-q08-3",
+                  "text": "銀工"
+                },
+                {
+                  "id": "s1-q08-4",
+                  "text": "金工"
+                }
               ],
               "correctOptionId": "s1-q08-1",
               "explanation": "「ぎんこう」は「銀行」と書きます。'Ginkou' means 'bank'. 銀 (gin) = silver, 行 (kou) = go/establishment."
@@ -131,10 +227,22 @@
               "type": "multiple-choice",
               "questionText": "まいにち <u>にほんご</u> を べんきょう します。",
               "options": [
-                { "id": "s1-q09-1", "text": "日本語" },
-                { "id": "s1-q09-2", "text": "日語本" },
-                { "id": "s1-q09-3", "text": "本日語" },
-                { "id": "s1-q09-4", "text": "日本言" }
+                {
+                  "id": "s1-q09-1",
+                  "text": "日本語"
+                },
+                {
+                  "id": "s1-q09-2",
+                  "text": "日語本"
+                },
+                {
+                  "id": "s1-q09-3",
+                  "text": "本日語"
+                },
+                {
+                  "id": "s1-q09-4",
+                  "text": "日本言"
+                }
               ],
               "correctOptionId": "s1-q09-1",
               "explanation": "「にほんご」は「日本語」と書きます。'Nihongo' means 'Japanese language'. 日本 (Nihon) = Japan, 語 (go) = language."
@@ -144,10 +252,22 @@
               "type": "multiple-choice",
               "questionText": "きのう としょかんで <u>ほん</u> を よみました。",
               "options": [
-                { "id": "s1-q10-1", "text": "本" },
-                { "id": "s1-q10-2", "text": "文" },
-                { "id": "s1-q10-3", "text": "木" },
-                { "id": "s1-q10-4", "text": "元" }
+                {
+                  "id": "s1-q10-1",
+                  "text": "本"
+                },
+                {
+                  "id": "s1-q10-2",
+                  "text": "文"
+                },
+                {
+                  "id": "s1-q10-3",
+                  "text": "木"
+                },
+                {
+                  "id": "s1-q10-4",
+                  "text": "元"
+                }
               ],
               "correctOptionId": "s1-q10-1",
               "explanation": "「ほん」は「本」と書きます。'Hon' means 'book'. Don't confuse with 木 (ki/tree), 文 (fumi/writing), or 元 (moto/origin)."
@@ -157,10 +277,22 @@
               "type": "multiple-choice",
               "questionText": "ともだちと <u>かいもの</u> に いきます。",
               "options": [
-                { "id": "s1-q11-1", "text": "買い物" },
-                { "id": "s1-q11-2", "text": "売い物" },
-                { "id": "s1-q11-3", "text": "貝物" },
-                { "id": "s1-q11-4", "text": "貸し物" }
+                {
+                  "id": "s1-q11-1",
+                  "text": "買い物"
+                },
+                {
+                  "id": "s1-q11-2",
+                  "text": "売い物"
+                },
+                {
+                  "id": "s1-q11-3",
+                  "text": "貝物"
+                },
+                {
+                  "id": "s1-q11-4",
+                  "text": "貸し物"
+                }
               ],
               "correctOptionId": "s1-q11-1",
               "explanation": "「かいもの」は「買い物」と書きます。'Kaimono' means 'shopping'. 買 (kai) = buy, 物 (mono) = thing."
@@ -170,10 +302,22 @@
               "type": "multiple-choice",
               "questionText": "<u>くるま</u> で がっこうに きました。",
               "options": [
-                { "id": "s1-q12-1", "text": "車" },
-                { "id": "s1-q12-2", "text": "軍" },
-                { "id": "s1-q12-3", "text": "単" },
-                { "id": "s1-q12-4", "text": "重" }
+                {
+                  "id": "s1-q12-1",
+                  "text": "車"
+                },
+                {
+                  "id": "s1-q12-2",
+                  "text": "軍"
+                },
+                {
+                  "id": "s1-q12-3",
+                  "text": "単"
+                },
+                {
+                  "id": "s1-q12-4",
+                  "text": "重"
+                }
               ],
               "correctOptionId": "s1-q12-1",
               "explanation": "「くるま」は「車」と書きます。'Kuruma' means 'car'. The kanji 車 depicts a wheel viewed from above."
@@ -190,10 +334,22 @@
               "type": "multiple-choice",
               "questionText": "まいあさ６じに （　　） て、がっこうへ いきます。",
               "options": [
-                { "id": "s1-q13-1", "text": "おき" },
-                { "id": "s1-q13-2", "text": "ね" },
-                { "id": "s1-q13-3", "text": "やすみ" },
-                { "id": "s1-q13-4", "text": "あそび" }
+                {
+                  "id": "s1-q13-1",
+                  "text": "おき"
+                },
+                {
+                  "id": "s1-q13-2",
+                  "text": "ね"
+                },
+                {
+                  "id": "s1-q13-3",
+                  "text": "やすみ"
+                },
+                {
+                  "id": "s1-q13-4",
+                  "text": "あそび"
+                }
               ],
               "correctOptionId": "s1-q13-1",
               "explanation": "「おきて」（起きて）が正解です。'Okite' means 'waking up (and then)'. The sentence means 'I wake up at 6 every morning and go to school.'"
@@ -203,10 +359,22 @@
               "type": "multiple-choice",
               "questionText": "ふゆは とても （　　） から、あたたかい ふくを きます。",
               "options": [
-                { "id": "s1-q14-1", "text": "さむい" },
-                { "id": "s1-q14-2", "text": "あつい" },
-                { "id": "s1-q14-3", "text": "すずしい" },
-                { "id": "s1-q14-4", "text": "あたたかい" }
+                {
+                  "id": "s1-q14-1",
+                  "text": "さむい"
+                },
+                {
+                  "id": "s1-q14-2",
+                  "text": "あつい"
+                },
+                {
+                  "id": "s1-q14-3",
+                  "text": "すずしい"
+                },
+                {
+                  "id": "s1-q14-4",
+                  "text": "あたたかい"
+                }
               ],
               "correctOptionId": "s1-q14-1",
               "explanation": "「さむい」（寒い）が正解です。'Samui' means 'cold'. The sentence: 'Because winter is very cold, I wear warm clothes.' あつい = hot, すずしい = cool, あたたかい = warm (contradicts wearing warm clothes)."
@@ -216,10 +384,22 @@
               "type": "multiple-choice",
               "questionText": "すみません、もう すこし （　　） はなして ください。",
               "options": [
-                { "id": "s1-q15-1", "text": "ゆっくり" },
-                { "id": "s1-q15-2", "text": "はやく" },
-                { "id": "s1-q15-3", "text": "たかく" },
-                { "id": "s1-q15-4", "text": "ちいさく" }
+                {
+                  "id": "s1-q15-1",
+                  "text": "ゆっくり"
+                },
+                {
+                  "id": "s1-q15-2",
+                  "text": "はやく"
+                },
+                {
+                  "id": "s1-q15-3",
+                  "text": "たかく"
+                },
+                {
+                  "id": "s1-q15-4",
+                  "text": "ちいさく"
+                }
               ],
               "correctOptionId": "s1-q15-1",
               "explanation": "「ゆっくり」が正解です。'Yukkuri' means 'slowly'. The sentence: 'Excuse me, please speak a little more slowly.' はやく = quickly, contradicting the request to be understood."
@@ -229,10 +409,22 @@
               "type": "multiple-choice",
               "questionText": "きのう としょかんで ほんを ３さつ （　　） ました。",
               "options": [
-                { "id": "s1-q16-1", "text": "かり" },
-                { "id": "s1-q16-2", "text": "かい" },
-                { "id": "s1-q16-3", "text": "うり" },
-                { "id": "s1-q16-4", "text": "かき" }
+                {
+                  "id": "s1-q16-1",
+                  "text": "かり"
+                },
+                {
+                  "id": "s1-q16-2",
+                  "text": "かい"
+                },
+                {
+                  "id": "s1-q16-3",
+                  "text": "うり"
+                },
+                {
+                  "id": "s1-q16-4",
+                  "text": "かき"
+                }
               ],
               "correctOptionId": "s1-q16-1",
               "explanation": "「かりました」（借りました）が正解です。'Karimashita' means 'borrowed'. The sentence: 'Yesterday I borrowed 3 books from the library.' Libraries lend books, so 借りる (borrow) fits best."
@@ -242,10 +434,22 @@
               "type": "multiple-choice",
               "questionText": "でんしゃの なかで おんがくを （　　） います。",
               "options": [
-                { "id": "s1-q17-1", "text": "きいて" },
-                { "id": "s1-q17-2", "text": "みて" },
-                { "id": "s1-q17-3", "text": "よんで" },
-                { "id": "s1-q17-4", "text": "たべて" }
+                {
+                  "id": "s1-q17-1",
+                  "text": "きいて"
+                },
+                {
+                  "id": "s1-q17-2",
+                  "text": "みて"
+                },
+                {
+                  "id": "s1-q17-3",
+                  "text": "よんで"
+                },
+                {
+                  "id": "s1-q17-4",
+                  "text": "たべて"
+                }
               ],
               "correctOptionId": "s1-q17-1",
               "explanation": "「きいて」（聞いて）が正解です。'Kiite' means 'listening'. The sentence: 'I am listening to music on the train.' You listen (聞く) to music, not watch/read/eat it."
@@ -255,10 +459,22 @@
               "type": "multiple-choice",
               "questionText": "おなかが すいたから、なにか （　　） たいです。",
               "options": [
-                { "id": "s1-q18-1", "text": "たべ" },
-                { "id": "s1-q18-2", "text": "のみ" },
-                { "id": "s1-q18-3", "text": "ね" },
-                { "id": "s1-q18-4", "text": "あそび" }
+                {
+                  "id": "s1-q18-1",
+                  "text": "たべ"
+                },
+                {
+                  "id": "s1-q18-2",
+                  "text": "のみ"
+                },
+                {
+                  "id": "s1-q18-3",
+                  "text": "ね"
+                },
+                {
+                  "id": "s1-q18-4",
+                  "text": "あそび"
+                }
               ],
               "correctOptionId": "s1-q18-1",
               "explanation": "「たべたい」（食べたい）が正解です。'Tabetai' means 'want to eat'. The sentence: 'Because I'm hungry, I want to eat something.' Hunger → eating is the natural connection."
@@ -268,10 +484,22 @@
               "type": "multiple-choice",
               "questionText": "あしたは しけんが あるから、きょう （　　） べんきょう します。",
               "options": [
-                { "id": "s1-q19-1", "text": "たくさん" },
-                { "id": "s1-q19-2", "text": "すこし" },
-                { "id": "s1-q19-3", "text": "あまり" },
-                { "id": "s1-q19-4", "text": "ぜんぜん" }
+                {
+                  "id": "s1-q19-1",
+                  "text": "たくさん"
+                },
+                {
+                  "id": "s1-q19-2",
+                  "text": "すこし"
+                },
+                {
+                  "id": "s1-q19-3",
+                  "text": "あまり"
+                },
+                {
+                  "id": "s1-q19-4",
+                  "text": "ぜんぜん"
+                }
               ],
               "correctOptionId": "s1-q19-1",
               "explanation": "「たくさん」が正解です。'Takusan' means 'a lot'. The sentence: 'Because I have an exam tomorrow, I will study a lot today.' あまり and ぜんぜん are used with negatives, and すこし (a little) contradicts the urgency."
@@ -288,10 +516,22 @@
               "type": "multiple-choice",
               "questionText": "田中さんは <u>やさしい</u> 人です。",
               "options": [
-                { "id": "s1-q20-1", "text": "しんせつな" },
-                { "id": "s1-q20-2", "text": "きびしい" },
-                { "id": "s1-q20-3", "text": "いそがしい" },
-                { "id": "s1-q20-4", "text": "こわい" }
+                {
+                  "id": "s1-q20-1",
+                  "text": "しんせつな"
+                },
+                {
+                  "id": "s1-q20-2",
+                  "text": "きびしい"
+                },
+                {
+                  "id": "s1-q20-3",
+                  "text": "いそがしい"
+                },
+                {
+                  "id": "s1-q20-4",
+                  "text": "こわい"
+                }
               ],
               "correctOptionId": "s1-q20-1",
               "explanation": "「やさしい」≈「しんせつな」。Both mean 'kind/gentle'. やさしい = gentle/easy-going, しんせつ（親切）= kind/considerate. きびしい = strict, いそがしい = busy, こわい = scary."
@@ -301,10 +541,22 @@
               "type": "multiple-choice",
               "questionText": "その えいがは <u>おもしろ</u>かったです。",
               "options": [
-                { "id": "s1-q21-1", "text": "たのしかった" },
-                { "id": "s1-q21-2", "text": "かなしかった" },
-                { "id": "s1-q21-3", "text": "こわかった" },
-                { "id": "s1-q21-4", "text": "つまらなかった" }
+                {
+                  "id": "s1-q21-1",
+                  "text": "たのしかった"
+                },
+                {
+                  "id": "s1-q21-2",
+                  "text": "かなしかった"
+                },
+                {
+                  "id": "s1-q21-3",
+                  "text": "こわかった"
+                },
+                {
+                  "id": "s1-q21-4",
+                  "text": "つまらなかった"
+                }
               ],
               "correctOptionId": "s1-q21-1",
               "explanation": "「おもしろい」≈「たのしい」。Both convey enjoyment/entertainment. おもしろい = interesting/fun, たのしい = enjoyable/pleasant. かなしい = sad, こわい = scary, つまらない = boring (opposite)."
@@ -314,10 +566,22 @@
               "type": "multiple-choice",
               "questionText": "でんしゃが <u>おくれました</u>。",
               "options": [
-                { "id": "s1-q22-1", "text": "ちこくしました" },
-                { "id": "s1-q22-2", "text": "はやく きました" },
-                { "id": "s1-q22-3", "text": "じかんどおり きました" },
-                { "id": "s1-q22-4", "text": "とまりました" }
+                {
+                  "id": "s1-q22-1",
+                  "text": "ちこくしました"
+                },
+                {
+                  "id": "s1-q22-2",
+                  "text": "はやく きました"
+                },
+                {
+                  "id": "s1-q22-3",
+                  "text": "じかんどおり きました"
+                },
+                {
+                  "id": "s1-q22-4",
+                  "text": "とまりました"
+                }
               ],
               "correctOptionId": "s1-q22-1",
               "explanation": "「おくれました」（遅れました）≈「ちこくしました」（遅刻しました）。Both mean 'was late'. おくれる = to be delayed, ちこくする = to be late. とまりました = stopped."
@@ -327,10 +591,22 @@
               "type": "multiple-choice",
               "questionText": "この しごとは <u>たいへん</u>です。",
               "options": [
-                { "id": "s1-q23-1", "text": "むずかしくて つかれます" },
-                { "id": "s1-q23-2", "text": "かんたんです" },
-                { "id": "s1-q23-3", "text": "たのしいです" },
-                { "id": "s1-q23-4", "text": "やさしいです" }
+                {
+                  "id": "s1-q23-1",
+                  "text": "むずかしくて つかれます"
+                },
+                {
+                  "id": "s1-q23-2",
+                  "text": "かんたんです"
+                },
+                {
+                  "id": "s1-q23-3",
+                  "text": "たのしいです"
+                },
+                {
+                  "id": "s1-q23-4",
+                  "text": "やさしいです"
+                }
               ],
               "correctOptionId": "s1-q23-1",
               "explanation": "「たいへん」（大変）≈「むずかしくてつかれます」。'Taihen' means 'hard/tough/difficult', which implies being difficult and tiring. かんたん = easy (opposite), たのしい = fun."
@@ -340,10 +616,22 @@
               "type": "multiple-choice",
               "questionText": "かれは <u>いつも</u> ちこくします。",
               "options": [
-                { "id": "s1-q24-1", "text": "まいにち" },
-                { "id": "s1-q24-2", "text": "ときどき" },
-                { "id": "s1-q24-3", "text": "たまに" },
-                { "id": "s1-q24-4", "text": "あまり" }
+                {
+                  "id": "s1-q24-1",
+                  "text": "まいにち"
+                },
+                {
+                  "id": "s1-q24-2",
+                  "text": "ときどき"
+                },
+                {
+                  "id": "s1-q24-3",
+                  "text": "たまに"
+                },
+                {
+                  "id": "s1-q24-4",
+                  "text": "あまり"
+                }
               ],
               "correctOptionId": "s1-q24-1",
               "explanation": "「いつも」≈「まいにち」。'Itsumo' means 'always/all the time', closest to まいにち (every day). ときどき = sometimes, たまに = occasionally, あまり = not much (used with negatives)."
@@ -364,17 +652,807 @@
           "instructions": "Choose the correct grammar form to fill in the blank.",
           "questions": [
             {
-              "id": "s2-placeholder-1",
+              "id": "s2-q01",
               "type": "multiple-choice",
-              "questionText": "（Section 2 grammar questions — coming in next sprint）",
+              "questionText": "わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> ７<ruby>時<rt>じ</rt></ruby> （　　） <ruby>起<rt>お</rt></ruby>きます。",
               "options": [
-                { "id": "s2-p1-1", "text": "Option 1" },
-                { "id": "s2-p1-2", "text": "Option 2" },
-                { "id": "s2-p1-3", "text": "Option 3" },
-                { "id": "s2-p1-4", "text": "Option 4" }
+                {
+                  "id": "s2-q01-1",
+                  "text": "を"
+                },
+                {
+                  "id": "s2-q01-2",
+                  "text": "に"
+                },
+                {
+                  "id": "s2-q01-3",
+                  "text": "で"
+                },
+                {
+                  "id": "s2-q01-4",
+                  "text": "へ"
+                }
               ],
-              "correctOptionId": "s2-p1-1",
-              "explanation": "Placeholder explanation."
+              "correctOptionId": "s2-q01-2",
+              "explanation": "Use に for a specific time: ７時に起きます. 日本語では、時間の点を言うとき『に』を使います。"
+            },
+            {
+              "id": "s2-q02",
+              "type": "multiple-choice",
+              "questionText": "<ruby>昨日<rt>きのう</rt></ruby>、スーパー（　　） <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を かいました。",
+              "options": [
+                {
+                  "id": "s2-q02-1",
+                  "text": "が"
+                },
+                {
+                  "id": "s2-q02-2",
+                  "text": "に"
+                },
+                {
+                  "id": "s2-q02-3",
+                  "text": "で"
+                },
+                {
+                  "id": "s2-q02-4",
+                  "text": "は"
+                }
+              ],
+              "correctOptionId": "s2-q02-3",
+              "explanation": "で marks the place where an action happens: スーパーで買いました. 動作の場所は『で』です。"
+            },
+            {
+              "id": "s2-q03",
+              "type": "multiple-choice",
+              "questionText": "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>友<rt>とも</rt></ruby>だち（　　） <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。",
+              "options": [
+                {
+                  "id": "s2-q03-1",
+                  "text": "が"
+                },
+                {
+                  "id": "s2-q03-2",
+                  "text": "に"
+                },
+                {
+                  "id": "s2-q03-3",
+                  "text": "と"
+                },
+                {
+                  "id": "s2-q03-4",
+                  "text": "へ"
+                }
+              ],
+              "correctOptionId": "s2-q03-3",
+              "explanation": "と is used for doing something together with someone. 『友だちと映画を見ました』が自然です。"
+            },
+            {
+              "id": "s2-q04",
+              "type": "multiple-choice",
+              "questionText": "<ruby>今晩<rt>こんばん</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>を （　　）です。",
+              "options": [
+                {
+                  "id": "s2-q04-1",
+                  "text": "べんきょうし"
+                },
+                {
+                  "id": "s2-q04-2",
+                  "text": "べんきょうして"
+                },
+                {
+                  "id": "s2-q04-3",
+                  "text": "べんきょうしたい"
+                },
+                {
+                  "id": "s2-q04-4",
+                  "text": "べんきょうしない"
+                }
+              ],
+              "correctOptionId": "s2-q04-3",
+              "explanation": "～たい expresses desire: 勉強したいです (I want to study). 『～たい』は希望を表します。"
+            },
+            {
+              "id": "s2-q05",
+              "type": "multiple-choice",
+              "questionText": "ここで <ruby>写真<rt>しゃしん</rt></ruby>を （　　）ください。",
+              "options": [
+                {
+                  "id": "s2-q05-1",
+                  "text": "とる"
+                },
+                {
+                  "id": "s2-q05-2",
+                  "text": "とって"
+                },
+                {
+                  "id": "s2-q05-3",
+                  "text": "とり"
+                },
+                {
+                  "id": "s2-q05-4",
+                  "text": "とった"
+                }
+              ],
+              "correctOptionId": "s2-q05-2",
+              "explanation": "For requests, use て-form + ください: とってください. 依頼の形は『～てください』です。"
+            },
+            {
+              "id": "s2-q06",
+              "type": "multiple-choice",
+              "questionText": "<ruby>田中<rt>たなか</rt></ruby>さんは いま <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を （　　）。",
+              "options": [
+                {
+                  "id": "s2-q06-1",
+                  "text": "よみます"
+                },
+                {
+                  "id": "s2-q06-2",
+                  "text": "よみました"
+                },
+                {
+                  "id": "s2-q06-3",
+                  "text": "よんでいます"
+                },
+                {
+                  "id": "s2-q06-4",
+                  "text": "よみたいです"
+                }
+              ],
+              "correctOptionId": "s2-q06-3",
+              "explanation": "いま indicates an ongoing action, so use ～ている: 読んでいます. 今している動作には『～ている』を使います。"
+            },
+            {
+              "id": "s2-q07",
+              "type": "multiple-choice",
+              "questionText": "あした <ruby>雨<rt>あめ</rt></ruby>が （　　）から、かさを もって いきます。",
+              "options": [
+                {
+                  "id": "s2-q07-1",
+                  "text": "ふります"
+                },
+                {
+                  "id": "s2-q07-2",
+                  "text": "ふる"
+                },
+                {
+                  "id": "s2-q07-3",
+                  "text": "ふって"
+                },
+                {
+                  "id": "s2-q07-4",
+                  "text": "ふらない"
+                }
+              ],
+              "correctOptionId": "s2-q07-2",
+              "explanation": "Before から giving a reason in plain style, use dictionary form: 雨がふるから. 理由の前の普通形として『ふる』が正しいです。"
+            },
+            {
+              "id": "s2-q08",
+              "type": "multiple-choice",
+              "questionText": "きのうの <ruby>夜<rt>よる</rt></ruby>は <ruby>肉<rt>にく</rt></ruby>を （　　）。",
+              "options": [
+                {
+                  "id": "s2-q08-1",
+                  "text": "たべます"
+                },
+                {
+                  "id": "s2-q08-2",
+                  "text": "たべません"
+                },
+                {
+                  "id": "s2-q08-3",
+                  "text": "たべました"
+                },
+                {
+                  "id": "s2-q08-4",
+                  "text": "たべたいです"
+                }
+              ],
+              "correctOptionId": "s2-q08-3",
+              "explanation": "きのう indicates past time, so use past polite form ～ました: 食べました. 過去の文なので『～ました』です。"
+            },
+            {
+              "id": "s2-q09",
+              "type": "multiple-choice",
+              "questionText": "<ruby>駅<rt>えき</rt></ruby>へは この みちを まっすぐ （　　）。",
+              "options": [
+                {
+                  "id": "s2-q09-1",
+                  "text": "いきます"
+                },
+                {
+                  "id": "s2-q09-2",
+                  "text": "いってください"
+                },
+                {
+                  "id": "s2-q09-3",
+                  "text": "いきたいです"
+                },
+                {
+                  "id": "s2-q09-4",
+                  "text": "いきません"
+                }
+              ],
+              "correctOptionId": "s2-q09-2",
+              "explanation": "Giving directions uses て-form + ください: 行ってください. 道案内では『～てください』が自然です。"
+            },
+            {
+              "id": "s2-q10",
+              "type": "multiple-choice",
+              "questionText": "きょうは <ruby>日曜日<rt>にちようび</rt></ruby>ですが、<ruby>父<rt>ちち</rt></ruby>は （　　）。",
+              "options": [
+                {
+                  "id": "s2-q10-1",
+                  "text": "はたらきます"
+                },
+                {
+                  "id": "s2-q10-2",
+                  "text": "はたらきません"
+                },
+                {
+                  "id": "s2-q10-3",
+                  "text": "はたらいて"
+                },
+                {
+                  "id": "s2-q10-4",
+                  "text": "はたらいた"
+                }
+              ],
+              "correctOptionId": "s2-q10-2",
+              "explanation": "The sentence needs present negative polite: 父は働きません. 現在否定の丁寧形は『働きません』です。"
+            }
+          ]
+        },
+        {
+          "id": "s2-sub2",
+          "title": "問題２　＿＿★＿＿ に なるように、１・２・３・４を ならべかえて ください。",
+          "instructions": "Arrange the four fragments to form a correct sentence. Choose the fragment that goes in the ★ position.",
+          "questions": [
+            {
+              "id": "s2-q11",
+              "type": "sentence-composition",
+              "questionText": "<ruby>毎朝<rt>まいあさ</rt></ruby> わたしは ★ <ruby>学校<rt>がっこう</rt></ruby>へ いきます。",
+              "options": [
+                {
+                  "id": "s2-q11-1",
+                  "text": "７<ruby>時<rt>じ</rt></ruby>に"
+                },
+                {
+                  "id": "s2-q11-2",
+                  "text": "パンを"
+                },
+                {
+                  "id": "s2-q11-3",
+                  "text": "うちで"
+                },
+                {
+                  "id": "s2-q11-4",
+                  "text": "たべて"
+                }
+              ],
+              "correctOptionId": "s2-q11-4",
+              "explanation": "Correct order: わたしは うちで パンを たべて ７時に 学校へいきます. ★ is たべて. 連用の順番では動作をつなぐ『て形』がここに入ります。"
+            },
+            {
+              "id": "s2-q12",
+              "type": "sentence-composition",
+              "questionText": "<ruby>田中<rt>たなか</rt></ruby>さんは ★ と <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>しました。",
+              "options": [
+                {
+                  "id": "s2-q12-1",
+                  "text": "きのう"
+                },
+                {
+                  "id": "s2-q12-2",
+                  "text": "ともだち"
+                },
+                {
+                  "id": "s2-q12-3",
+                  "text": "いっしょに"
+                },
+                {
+                  "id": "s2-q12-4",
+                  "text": "３<ruby>時間<rt>じかん</rt></ruby>"
+                }
+              ],
+              "correctOptionId": "s2-q12-2",
+              "explanation": "Natural sentence: 田中さんは きのう ともだちと いっしょに 図書館で ３時間 勉強しました. ★ is ともだち. 『と』の前には名詞（ともだち）が来ます。"
+            },
+            {
+              "id": "s2-q13",
+              "type": "sentence-composition",
+              "questionText": "この みちは ★ ですから、<ruby>気<rt>き</rt></ruby>をつけて ください。",
+              "options": [
+                {
+                  "id": "s2-q13-1",
+                  "text": "<ruby>車<rt>くるま</rt></ruby>が"
+                },
+                {
+                  "id": "s2-q13-2",
+                  "text": "おおくて"
+                },
+                {
+                  "id": "s2-q13-3",
+                  "text": "あぶない"
+                },
+                {
+                  "id": "s2-q13-4",
+                  "text": "まいにち"
+                }
+              ],
+              "correctOptionId": "s2-q13-3",
+              "explanation": "Correct order: 車が まいにち おおくて あぶない ですから… so ★ is あぶない. 文末の述語位置に形容詞『あぶない』が入ります。"
+            },
+            {
+              "id": "s2-q14",
+              "type": "sentence-composition",
+              "questionText": "<ruby>日曜日<rt>にちようび</rt></ruby>は ★ から、うちで ねました。",
+              "options": [
+                {
+                  "id": "s2-q14-1",
+                  "text": "ねつ"
+                },
+                {
+                  "id": "s2-q14-2",
+                  "text": "が"
+                },
+                {
+                  "id": "s2-q14-3",
+                  "text": "ありました"
+                },
+                {
+                  "id": "s2-q14-4",
+                  "text": "すこし"
+                }
+              ],
+              "correctOptionId": "s2-q14-4",
+              "explanation": "Correct order: 日曜日は すこし ねつが ありましたから… so ★ is すこし. 程度を表す副詞『すこし』が先に来ます。"
+            },
+            {
+              "id": "s2-q15",
+              "type": "sentence-composition",
+              "questionText": "<ruby>妹<rt>いもうと</rt></ruby>は ★ を のみたい と <ruby>言<rt>い</rt></ruby>っています。",
+              "options": [
+                {
+                  "id": "s2-q15-1",
+                  "text": "つめたい"
+                },
+                {
+                  "id": "s2-q15-2",
+                  "text": "おちゃ"
+                },
+                {
+                  "id": "s2-q15-3",
+                  "text": "いま"
+                },
+                {
+                  "id": "s2-q15-4",
+                  "text": "たくさん"
+                }
+              ],
+              "correctOptionId": "s2-q15-1",
+              "explanation": "Natural order: 妹は いま つめたい おちゃを たくさん のみたい… so ★ is つめたい. 名詞『おちゃ』を修飾する語がここです。"
+            }
+          ]
+        },
+        {
+          "id": "s2-sub3",
+          "title": "問題３　つぎの ぶんしょうを よんで、（　　）に なにを いれますか。",
+          "instructions": "Read the short passage and choose the correct word for each blank.",
+          "passages": [
+            {
+              "id": "s2-passage-1",
+              "title": "<ruby>朝<rt>あさ</rt></ruby>の じゅんび",
+              "text": "わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> ６<ruby>時<rt>じ</rt></ruby>に おきます。それから、<ruby>顔<rt>かお</rt></ruby>を あらって、<ruby>朝<rt>あさ</rt></ruby>ごはんを たべます。"
+            },
+            {
+              "id": "s2-passage-2",
+              "title": "<ruby>買<rt>か</rt></ruby>いもの",
+              "text": "きのう、<ruby>母<rt>はは</rt></ruby>と スーパーへ いきました。やさいと さかなを かって、<ruby>家<rt>いえ</rt></ruby>で ばんごはんを つくりました。"
+            },
+            {
+              "id": "s2-passage-3",
+              "title": "しゅうまつ",
+              "text": "<ruby>土曜日<rt>どようび</rt></ruby>は いい てんきでした。<ruby>公園<rt>こうえん</rt></ruby>で <ruby>友<rt>とも</rt></ruby>だちと サッカーを して、たのしかったです。"
+            }
+          ],
+          "questions": [
+            {
+              "id": "s2-q16",
+              "type": "multiple-choice",
+              "passageRef": "s2-passage-1",
+              "questionText": "わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> ６<ruby>時<rt>じ</rt></ruby>（　　） おきます。",
+              "options": [
+                {
+                  "id": "s2-q16-1",
+                  "text": "を"
+                },
+                {
+                  "id": "s2-q16-2",
+                  "text": "に"
+                },
+                {
+                  "id": "s2-q16-3",
+                  "text": "で"
+                },
+                {
+                  "id": "s2-q16-4",
+                  "text": "と"
+                }
+              ],
+              "correctOptionId": "s2-q16-2",
+              "explanation": "Specific time takes に: ６時に起きます. 時間の点には『に』を使います。"
+            },
+            {
+              "id": "s2-q17",
+              "type": "multiple-choice",
+              "passageRef": "s2-passage-1",
+              "questionText": "それから、<ruby>顔<rt>かお</rt></ruby>を あらって、<ruby>朝<rt>あさ</rt></ruby>ごはんを （　　）。",
+              "options": [
+                {
+                  "id": "s2-q17-1",
+                  "text": "たべます"
+                },
+                {
+                  "id": "s2-q17-2",
+                  "text": "たべたい"
+                },
+                {
+                  "id": "s2-q17-3",
+                  "text": "たべない"
+                },
+                {
+                  "id": "s2-q17-4",
+                  "text": "たべて"
+                }
+              ],
+              "correctOptionId": "s2-q17-1",
+              "explanation": "The passage states a routine in polite present: 朝ごはんをたべます. 習慣の文なので『～ます』が合います。"
+            },
+            {
+              "id": "s2-q18",
+              "type": "multiple-choice",
+              "passageRef": "s2-passage-2",
+              "questionText": "きのう、<ruby>母<rt>はは</rt></ruby>と スーパーへ （　　）。",
+              "options": [
+                {
+                  "id": "s2-q18-1",
+                  "text": "いきます"
+                },
+                {
+                  "id": "s2-q18-2",
+                  "text": "いきました"
+                },
+                {
+                  "id": "s2-q18-3",
+                  "text": "いきたいです"
+                },
+                {
+                  "id": "s2-q18-4",
+                  "text": "いきません"
+                }
+              ],
+              "correctOptionId": "s2-q18-2",
+              "explanation": "きのう requires past form: いきました. 過去の出来事なので『～ました』です。"
+            },
+            {
+              "id": "s2-q19",
+              "type": "multiple-choice",
+              "passageRef": "s2-passage-2",
+              "questionText": "やさいと さかなを かって、<ruby>家<rt>いえ</rt></ruby>（　　） ばんごはんを つくりました。",
+              "options": [
+                {
+                  "id": "s2-q19-1",
+                  "text": "で"
+                },
+                {
+                  "id": "s2-q19-2",
+                  "text": "に"
+                },
+                {
+                  "id": "s2-q19-3",
+                  "text": "へ"
+                },
+                {
+                  "id": "s2-q19-4",
+                  "text": "を"
+                }
+              ],
+              "correctOptionId": "s2-q19-1",
+              "explanation": "で marks where an action is done: 家で作りました. 動作の場所には『で』を使います。"
+            },
+            {
+              "id": "s2-q20",
+              "type": "multiple-choice",
+              "passageRef": "s2-passage-3",
+              "questionText": "<ruby>公園<rt>こうえん</rt></ruby>で <ruby>友<rt>とも</rt></ruby>だちと サッカーを して、（　　）です。",
+              "options": [
+                {
+                  "id": "s2-q20-1",
+                  "text": "たのしい"
+                },
+                {
+                  "id": "s2-q20-2",
+                  "text": "たのしかった"
+                },
+                {
+                  "id": "s2-q20-3",
+                  "text": "たのしく"
+                },
+                {
+                  "id": "s2-q20-4",
+                  "text": "たのしみ"
+                }
+              ],
+              "correctOptionId": "s2-q20-2",
+              "explanation": "The passage describes last Saturday, so past i-adjective is needed: たのしかったです. 過去の感想は『たのしかったです』です。"
+            }
+          ]
+        },
+        {
+          "id": "s2-sub4",
+          "title": "問題４　つぎの（１）から（１）の ぶんしょうを よんで、しつもんに こたえて ください。",
+          "instructions": "Read the passage and answer the question.",
+          "passages": [
+            {
+              "id": "s2-passage-4",
+              "text": "<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>会社<rt>かいしゃ</rt></ruby>へ いきます。でも、きょうは <ruby>雨<rt>あめ</rt></ruby>ですから、<ruby>電車<rt>でんしゃ</rt></ruby>で いきます。"
+            },
+            {
+              "id": "s2-passage-5",
+              "text": "あしたは <ruby>妹<rt>いもうと</rt></ruby>の たんじょうびです。<ruby>母<rt>はは</rt></ruby>は ケーキを つくって、<ruby>父<rt>ちち</rt></ruby>は プレゼントを かいます。わたしは へやを そうじします。"
+            },
+            {
+              "id": "s2-passage-6",
+              "text": "<ruby>駅<rt>えき</rt></ruby>の まえに <ruby>新<rt>あたら</rt></ruby>しい カフェが できました。コーヒーは ３００円で、サンドイッチは ４５０円です。<ruby>朝<rt>あさ</rt></ruby>７<ruby>時<rt>じ</rt></ruby>から あいています。"
+            }
+          ],
+          "questions": [
+            {
+              "id": "s2-q21",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-4",
+              "questionText": "きょう、<ruby>山田<rt>やまだ</rt></ruby>さんは なにで <ruby>会社<rt>かいしゃ</rt></ruby>へ いきますか。",
+              "options": [
+                {
+                  "id": "s2-q21-1",
+                  "text": "バス"
+                },
+                {
+                  "id": "s2-q21-2",
+                  "text": "<ruby>自転車<rt>じてんしゃ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q21-3",
+                  "text": "<ruby>電車<rt>でんしゃ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q21-4",
+                  "text": "あるいて"
+                }
+              ],
+              "correctOptionId": "s2-q21-3",
+              "explanation": "Because it is raining today, he goes by train: 電車でいきます. 本文に『きょうは雨ですから、電車でいきます』とあります。"
+            },
+            {
+              "id": "s2-q22",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-5",
+              "questionText": "わたしは あした なにを しますか。",
+              "options": [
+                {
+                  "id": "s2-q22-1",
+                  "text": "ケーキを つくります"
+                },
+                {
+                  "id": "s2-q22-2",
+                  "text": "プレゼントを かいます"
+                },
+                {
+                  "id": "s2-q22-3",
+                  "text": "へやを そうじします"
+                },
+                {
+                  "id": "s2-q22-4",
+                  "text": "<ruby>学校<rt>がっこう</rt></ruby>へ いきます"
+                }
+              ],
+              "correctOptionId": "s2-q22-3",
+              "explanation": "The speaker says わたしは へやを そうじします. 本人の役割は部屋の掃除です。"
+            },
+            {
+              "id": "s2-q23",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-6",
+              "questionText": "この カフェは <ruby>何時<rt>なんじ</rt></ruby>から あいていますか。",
+              "options": [
+                {
+                  "id": "s2-q23-1",
+                  "text": "<ruby>朝<rt>あさ</rt></ruby>６<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q23-2",
+                  "text": "<ruby>朝<rt>あさ</rt></ruby>７<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q23-3",
+                  "text": "<ruby>昼<rt>ひる</rt></ruby>１２<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q23-4",
+                  "text": "<ruby>夜<rt>よる</rt></ruby>７<ruby>時<rt>じ</rt></ruby>"
+                }
+              ],
+              "correctOptionId": "s2-q23-2",
+              "explanation": "The passage says 朝7時から あいています. したがって正解は『朝7時』です。"
+            }
+          ]
+        },
+        {
+          "id": "s2-sub5",
+          "title": "問題５　つぎの ぶんしょうを よんで、しつもんに こたえて ください。",
+          "instructions": "Read the passage and answer the questions.",
+          "passages": [
+            {
+              "id": "s2-passage-7",
+              "title": "<ruby>日曜日<rt>にちようび</rt></ruby>の ピクニック",
+              "text": "<ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>、わたしたち <ruby>家族<rt>かぞく</rt></ruby>は <ruby>大<rt>おお</rt></ruby>きい <ruby>公園<rt>こうえん</rt></ruby>へ いきました。<ruby>朝<rt>あさ</rt></ruby> ９<ruby>時<rt>じ</rt></ruby>に うちを でて、<ruby>母<rt>はは</rt></ruby>が つくった おべんとうを たべました。<ruby>父<rt>ちち</rt></ruby>と わたしは ボールで あそんで、<ruby>妹<rt>いもうと</rt></ruby>は <ruby>花<rt>はな</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を とりました。<ruby>午後<rt>ごご</rt></ruby> ３<ruby>時<rt>じ</rt></ruby>ごろ <ruby>雨<rt>あめ</rt></ruby>が ふったので、はやく うちへ かえりました。でも、とても たのしい いちにちでした。"
+            },
+            {
+              "id": "s2-passage-8",
+              "title": "<ruby>学校<rt>がっこう</rt></ruby>の <ruby>遠足<rt>えんそく</rt></ruby>",
+              "text": "わたしの <ruby>学校<rt>がっこう</rt></ruby>では <ruby>来月<rt>らいげつ</rt></ruby> <ruby>遠足<rt>えんそく</rt></ruby>が あります。<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>は <ruby>京都<rt>きょうと</rt></ruby>です。<ruby>朝<rt>あさ</rt></ruby> ８<ruby>時<rt>じ</rt></ruby>に <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>集<rt>あつ</rt></ruby>まって、バスで いきます。お<ruby>寺<rt>てら</rt></ruby>を <ruby>見<rt>み</rt></ruby>たり、<ruby>有名<rt>ゆうめい</rt></ruby>な おかしを かったり します。お<ruby>昼<rt>ひる</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと いっしょに たべます。わたしは カメラを もって いって、たくさん <ruby>写真<rt>しゃしん</rt></ruby>を とりたいです。"
+            }
+          ],
+          "questions": [
+            {
+              "id": "s2-q24",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-7",
+              "questionText": "ピクニックの <ruby>日<rt>ひ</rt></ruby>、<ruby>午後<rt>ごご</rt></ruby> どうして はやく かえりましたか。",
+              "options": [
+                {
+                  "id": "s2-q24-1",
+                  "text": "つかれたから"
+                },
+                {
+                  "id": "s2-q24-2",
+                  "text": "<ruby>雨<rt>あめ</rt></ruby>が ふったから"
+                },
+                {
+                  "id": "s2-q24-3",
+                  "text": "<ruby>父<rt>ちち</rt></ruby>が しごとだから"
+                },
+                {
+                  "id": "s2-q24-4",
+                  "text": "でんしゃが ないから"
+                }
+              ],
+              "correctOptionId": "s2-q24-2",
+              "explanation": "The passage states 午後3時ごろ雨がふったので、はやく帰りました. 理由は雨です。"
+            },
+            {
+              "id": "s2-q25",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-7",
+              "questionText": "<ruby>妹<rt>いもうと</rt></ruby>は <ruby>公園<rt>こうえん</rt></ruby>で なにを しましたか。",
+              "options": [
+                {
+                  "id": "s2-q25-1",
+                  "text": "ボールで あそびました"
+                },
+                {
+                  "id": "s2-q25-2",
+                  "text": "おべんとうを つくりました"
+                },
+                {
+                  "id": "s2-q25-3",
+                  "text": "<ruby>花<rt>はな</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を とりました"
+                },
+                {
+                  "id": "s2-q25-4",
+                  "text": "ほんを よみました"
+                }
+              ],
+              "correctOptionId": "s2-q25-3",
+              "explanation": "It says 妹は花の写真をとりました. 本文の行動と一致するのは選択肢3です。"
+            },
+            {
+              "id": "s2-q26",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-8",
+              "questionText": "<ruby>遠足<rt>えんそく</rt></ruby>の <ruby>日<rt>ひ</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>は いつ <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>集<rt>あつ</rt></ruby>まりますか。",
+              "options": [
+                {
+                  "id": "s2-q26-1",
+                  "text": "<ruby>朝<rt>あさ</rt></ruby>７<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q26-2",
+                  "text": "<ruby>朝<rt>あさ</rt></ruby>８<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q26-3",
+                  "text": "<ruby>昼<rt>ひる</rt></ruby>１２<ruby>時<rt>じ</rt></ruby>"
+                },
+                {
+                  "id": "s2-q26-4",
+                  "text": "<ruby>午後<rt>ごご</rt></ruby>２<ruby>時<rt>じ</rt></ruby>"
+                }
+              ],
+              "correctOptionId": "s2-q26-2",
+              "explanation": "The passage says 朝8時に学校へ集まって. Therefore the correct time is 8 a.m. 集合時間は朝8時です。"
+            }
+          ]
+        },
+        {
+          "id": "s2-sub6",
+          "title": "問題６　みぎの ページを みて、しつもんに こたえて ください。",
+          "instructions": "Look at the information and answer the question.",
+          "passages": [
+            {
+              "id": "s2-passage-9",
+              "title": "<ruby>市民<rt>しみん</rt></ruby>プールの おしらせ",
+              "text": "<ruby>市民<rt>しみん</rt></ruby>プール\n<ruby>平日<rt>へいじつ</rt></ruby>　１０:００〜２０:００\n<ruby>土曜日<rt>どようび</rt></ruby>・<ruby>日曜日<rt>にちようび</rt></ruby>　９:００〜２１:００\n<ruby>月曜日<rt>げつようび</rt></ruby>は やすみ\n<ruby>大人<rt>おとな</rt></ruby> ６００円　こども ３００円"
+            },
+            {
+              "id": "s2-passage-10",
+              "title": "<ruby>図書館<rt>としょかん</rt></ruby>イベント",
+              "text": "<ruby>春<rt>はる</rt></ruby>の <ruby>読書会<rt>どくしょかい</rt></ruby>\n<ruby>日<rt>ひ</rt></ruby>にち：４<ruby>月<rt>がつ</rt></ruby>１５<ruby>日<rt>にち</rt></ruby>（<ruby>土<rt>ど</rt></ruby>）\n<ruby>時間<rt>じかん</rt></ruby>：１４:００〜１５:３０\n<ruby>場所<rt>ばしょ</rt></ruby>：<ruby>中央<rt>ちゅうおう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby> ２<ruby>階<rt>かい</rt></ruby>\n<ruby>参加費<rt>さんかひ</rt></ruby>：むりょう"
+            }
+          ],
+          "questions": [
+            {
+              "id": "s2-q27",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-9",
+              "questionText": "<ruby>日曜日<rt>にちようび</rt></ruby>、プールは なんじまで ですか。",
+              "options": [
+                {
+                  "id": "s2-q27-1",
+                  "text": "１９:００"
+                },
+                {
+                  "id": "s2-q27-2",
+                  "text": "２０:００"
+                },
+                {
+                  "id": "s2-q27-3",
+                  "text": "２１:００"
+                },
+                {
+                  "id": "s2-q27-4",
+                  "text": "２２:００"
+                }
+              ],
+              "correctOptionId": "s2-q27-3",
+              "explanation": "On Saturday/Sunday it is open 9:00–21:00, so Sunday closes at 21:00. 日曜日の終了時間は21時です。"
+            },
+            {
+              "id": "s2-q28",
+              "type": "reading-comprehension",
+              "passageRef": "s2-passage-10",
+              "questionText": "<ruby>読書会<rt>どくしょかい</rt></ruby>は どこで ありますか。",
+              "options": [
+                {
+                  "id": "s2-q28-1",
+                  "text": "<ruby>中央<rt>ちゅうおう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby> １<ruby>階<rt>かい</rt></ruby>"
+                },
+                {
+                  "id": "s2-q28-2",
+                  "text": "<ruby>中央<rt>ちゅうおう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby> ２<ruby>階<rt>かい</rt></ruby>"
+                },
+                {
+                  "id": "s2-q28-3",
+                  "text": "<ruby>市民<rt>しみん</rt></ruby>ホール"
+                },
+                {
+                  "id": "s2-q28-4",
+                  "text": "<ruby>学校<rt>がっこう</rt></ruby>の <ruby>教室<rt>きょうしつ</rt></ruby>"
+                }
+              ],
+              "correctOptionId": "s2-q28-2",
+              "explanation": "The notice says 場所：中央図書館 ２階. したがって正解は2階です。"
             }
           ]
         }
@@ -396,10 +1474,22 @@
               "type": "listening-comprehension",
               "questionText": "（Section 3 listening questions — coming in a later sprint）",
               "options": [
-                { "id": "s3-p1-1", "text": "Option 1" },
-                { "id": "s3-p1-2", "text": "Option 2" },
-                { "id": "s3-p1-3", "text": "Option 3" },
-                { "id": "s3-p1-4", "text": "Option 4" }
+                {
+                  "id": "s3-p1-1",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "s3-p1-2",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "s3-p1-3",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "s3-p1-4",
+                  "text": "Option 4"
+                }
               ],
               "correctOptionId": "s3-p1-1",
               "explanation": "Placeholder explanation."
