@@ -31,6 +31,7 @@ interface ExamState {
 
   // Final scores for current exam
   examScores: ExamScores | null;
+  hasHydrated: boolean;
 
   // All-time results history (persisted in localStorage)
   resultsHistory: ResultsHistoryEntry[];
@@ -48,6 +49,7 @@ interface ExamState {
   updateSectionTimer: (sectionId: string, seconds: number) => void;
   completeExam: (scores: ExamScores) => void;
   resetExam: () => void;
+  setHasHydrated: (hydrated: boolean) => void;
 }
 
 const initialExamState = {
@@ -60,6 +62,7 @@ const initialExamState = {
   examCompleted: false,
   examSet: null,
   examScores: null,
+  hasHydrated: false,
 };
 
 export const useExamStore = create<ExamState>()(
@@ -148,18 +151,17 @@ export const useExamStore = create<ExamState>()(
         });
       },
 
-      resetExam: () =>
-        set((state) => ({
-          ...initialExamState,
-          // Preserve identity + history across resets so resume detection works
-          participantName: state.participantName,
-          email: state.email,
-          examSet: state.examSet,
-          resultsHistory: state.resultsHistory,
-        })),
+      completeExam: (scores) =>
+        set({ examCompleted: true, examScores: scores }),
+
+      resetExam: () => set(initialState),
+      setHasHydrated: (hydrated) => set({ hasHydrated: hydrated }),
     }),
     {
-      name: 'nihongo-community-exam-store',
+      name: 'jlpt-exam-store',
+      onRehydrateStorage: () => (state) => {
+        state?.setHasHydrated(true);
+      },
       partialize: (state) => ({
         participantName: state.participantName,
         email: state.email,

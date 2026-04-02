@@ -27,6 +27,7 @@ export default function ExamPage() {
   const completeSection = useExamStore((s) => s.completeSection);
   const completeExam = useExamStore((s) => s.completeExam);
   const examSet = useExamStore((s) => s.examSet);
+  const hasHydrated = useExamStore((s) => s.hasHydrated);
 
   const nav = useExamNavigation();
   const [phase, setPhase] = useState<ExamPhase>('section-intro');
@@ -34,10 +35,11 @@ export default function ExamPage() {
 
   // Redirect if not registered / exam not started
   useEffect(() => {
+    if (!hasHydrated) return;
     if (!examStarted || !participantName || !examSet) {
       router.replace('/');
     }
-  }, [examStarted, participantName, examSet, router]);
+  }, [hasHydrated, examStarted, participantName, examSet, router]);
 
   // Redirect if already completed
   useEffect(() => {
@@ -45,6 +47,10 @@ export default function ExamPage() {
       router.replace('/results');
     }
   }, [examCompleted, router]);
+
+  if (!hasHydrated) {
+    return null;
+  }
 
   if (!examStarted || !participantName || !examSet) {
     return null;
