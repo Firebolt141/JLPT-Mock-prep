@@ -62,7 +62,7 @@ const initialExamState = {
   examCompleted: false,
   examSet: null,
   examScores: null,
-  hasHydrated: false,
+  // hasHydrated intentionally excluded — it must never be reset by startExam/resetExam
 };
 
 export const useExamStore = create<ExamState>()(
@@ -71,6 +71,7 @@ export const useExamStore = create<ExamState>()(
       participantName: '',
       email: '',
       resultsHistory: [],
+      hasHydrated: false,
       ...initialExamState,
 
       setParticipantInfo: (name, email) =>
