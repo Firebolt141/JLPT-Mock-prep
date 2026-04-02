@@ -152,10 +152,16 @@ export const useExamStore = create<ExamState>()(
         });
       },
 
-      completeExam: (scores) =>
-        set({ examCompleted: true, examScores: scores }),
+      resetExam: () =>
+        set((state) => ({
+          ...initialExamState,
+          participantName: state.participantName,
+          email: state.email,
+          examSet: state.examSet,
+          resultsHistory: state.resultsHistory,
+          hasHydrated: state.hasHydrated,
+        })),
 
-      resetExam: () => set(initialState),
       setHasHydrated: (hydrated) => set({ hasHydrated: hydrated }),
     }),
     {
