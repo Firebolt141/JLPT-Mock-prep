@@ -19,7 +19,7 @@ export function SentenceComposition({
   return (
     <div className="space-y-3">
       <p className="text-base text-[#6B7280] mb-4">
-        Rearrange the words to form a correct sentence.
+        Choose the word or phrase that goes in the <strong className="text-[#1B2A4A]">★</strong> position.
       </p>
       <div className="grid grid-cols-1 gap-3">
         {question.options.map((option, index) => (

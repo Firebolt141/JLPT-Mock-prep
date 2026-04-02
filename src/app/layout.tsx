@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'JLPT模擬テスト | JLPT Mock Exam',
+  title: 'SAP Nihongo Community | JLPT Mock Exam',
   description:
     'JLPT mock examination platform for team upskilling. Practice N5 and N4 level Japanese language proficiency tests.',
   keywords: ['JLPT', 'Japanese', 'mock exam', 'N5', 'N4', 'language test'],

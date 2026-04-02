@@ -16,9 +16,10 @@ export function ReadingPassage({ passage }: ReadingPassageProps) {
         </h3>
       )}
       <div className="prose prose-sm max-w-none">
-        <p className="text-[#1A1A1A] leading-loose text-base whitespace-pre-line">
-          {passage.text}
-        </p>
+        <p
+          className="text-[#1A1A1A] leading-loose text-base whitespace-pre-line"
+          dangerouslySetInnerHTML={{ __html: passage.text }}
+        />
       </div>
     </Card>
   );
